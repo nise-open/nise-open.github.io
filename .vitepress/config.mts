@@ -22,27 +22,17 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'People', link: '/markdown-examples' },
-      { text: 'Courses', link: '/markdown-examples' },
-      { text: 'News', link: '/markdown-examples' },
-      { text: 'Research', link: '/markdown-examples' },
-      { text: 'Publications', link: '/markdown-examples' },
-      { text: 'Work with us', link: '/markdown-examples' },
-      { text: 'Contact us', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+      { text: 'People', link: '/pages/people' },
+      { text: 'Courses', link: '/pages/courses' },
+      { text: 'News', link: '/pages/news' },
+      { text: 'Research', link: '/pages/research' },
+      { text: 'Publications', link: '/pages/publications' },
+      { text: 'Work with us', link: '/pages/work' },
+      { text: 'Contact us', link: '/pages/contact' }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/nise-open' }
     ]
   }
 })
