@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1107)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(0.4,0,0,0.4,100,100)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="2000" height="2000"><svg width="2000" height="2000" viewBox="0 0 2000 2000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="m 0,1080
+      l 740,-1036
+      c 30,-44 70,-44 90,-44
+      c 20,0 60,5 90,20
+      c 100,50 67,193 64,204
+      l -144,516
+      l -400,560
+      z" fill="url(#paint0)"></path>
+    <path d="m 920,20
+      c 100,50 67,193 64,204
+      l -144,516
+      l 320,-448
+      c 80,-112 140,-74 160,-72
+      z" fill="url(#paint1)"></path>
+    <path d="m 840,740
+      l 320,-448
+      c 80,-112 140,-74 160,-72
+      c 90,40 100,100 80,180
+      l -240,860 -320,448
+      c -80,112 -140,74 -160,72
+      c -90,-40 -100,-100 -80,-180
+      z" fill="url(#paint2)"></path>
+    <path d="m 1080,1980
+      c -100,-50 -67,-193 -64,-204
+      l 144,-516
+      l -320,448
+      c -80,112 -140,74 -160,72
+      z" fill="url(#paint3)"></path>
+    <path d="m 2000,920
+      l -740,1036
+      c -30,44 -70,44 -90,44
+      c -20,0 -60,-5 -90,-20
+      c -100,-50 -67,-193 -64,-204
+      l 144,-516
+      l 400,-560
+      z" fill="url(#paint4)"></path>
+  </g>
+  <defs>
+    <linearGradient id="paint0" x1="440" y1="1300" x2="740" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A4C4E4"></stop>
+      <stop offset="1" stop-color="#66A6D6"></stop>
+    </linearGradient>
+    <linearGradient id="paint1" x1="984" y1="224" x2="1160" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3D7DBD"></stop>
+      <stop offset="1" stop-color="#4488D0"></stop>
+    </linearGradient>
+    <linearGradient id="paint2" x1="1080" y1="400" x2="935" y2="1565" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ABCCEF"></stop>
+      <stop offset="1" stop-color="#689CC4"></stop>
+    </linearGradient>
+    <linearGradient id="paint3" x1="840" y1="1708" x2="1016" y2="1776" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4575A5"></stop>
+      <stop offset="1" stop-color="#2F4F8F"></stop>
+    </linearGradient>
+    <linearGradient id="paint4" x1="970" y1="1930" x2="1775" y2="815" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#213E7C"></stop>
+      <stop offset="1" stop-color="#0C4480"></stop>
+    </linearGradient>
+  <clipPath id="SvgjsClipPath1107"><rect width="1000" height="1000" x="0" y="0" rx="350" ry="350"></rect></clipPath></defs>
+</svg></svg></g></g></svg>
