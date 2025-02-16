@@ -12,5 +12,11 @@ hero:
 </style>
 
 <script setup>
-  
+  const images = [
+    '/public/apple-touch-icon.png',
+    '/public/favicon-96x96.png',
+    '/public/apple-touch-icon.png'
+  ]
 </script>
+
+<Carousel :images="images" :interval="3000" />
