@@ -7,4 +7,10 @@ hero:
   tagline: "Forging Universal Connectivity"
 
 ---
+<style scoped>
 
+</style>
+
+<script setup>
+  
+</script>
