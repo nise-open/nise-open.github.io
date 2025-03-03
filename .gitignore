@@ -1,4 +1,7 @@
 ### Node ###
+# Lockfiles
+package-lock.json
+
 # Logs
 logs
 *.log
