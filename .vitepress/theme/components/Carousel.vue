@@ -102,7 +102,7 @@ onBeforeUnmount(pauseAutoPlay)
   background: #f0f0f0 !important; /* 强制灰色背景 */
   margin: 2rem 0;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 18px rgba(32, 62, 116, 0.15);
 }
 
 .carousel-track {
