@@ -1,24 +1,31 @@
+---
+layout: home
+
+---
+
 # Research
+
 <style scoped>
 .article-container {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  margin: 20px;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 20px 50px 20px;
 }
 
+
 .article {
-  width: 48%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  box-shadow: 0 4px 18px rgba(32, 62, 116, 0.15);
   padding: 20px;
   border-radius: 8px;
   background-color: #fff;
 }
 
 .article-image {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;  
+  display: block;  
 }
 
 .article-description {
@@ -29,33 +36,72 @@
 }
 </style>
 
-<img src="/public/apple-touch-icon.png" alt="My Photo" style="width: 100%; height: 100%;">
-The overarching goal of the SAFARI Research Group is to design fundamentally better computer architectures that will have long-lasting positive impact on human lives. We aim to invent computer architecture paradigms that get widely used for decades to come. The group develops both theoretical and practical ideas, methods, and infrastructures to understand, model and enhance performance, energy efficiency, reliability, security, safety, predictability, dependability, usability, and scalability of computer architectures. We have an extensive research & education portfolio centered around computer architecture and systems, with significant concerted efforts in all aspects of memory & storage, hardware security/safety/reliability, and system design for bioinformatics, medicine, and machine learning (with special focus on genome analysis).
+## Main research areas and directions
 
-Memory (and data movement from memory) is a key bottleneck in all computing systems. We tackle key problems in computer memory systems, spanning circuits to algorithms/applications. We rigorously study how to make memory systems fundamentally secure/safe/reliable, low-latency, predictable, and energy efficient and how to customize them for emerging applications like genomics, artificial intelligence, medical/health systems. Solutions to memory technology scaling problems, data-centric computing paradigms (Processing-in-Memory), and algorithm-architecture co-design for fast & efficient genome analysis are three major directions.  Although we have broad research interests in computing, we are especially interested in holistic architectural solutions that involve intelligent and efficient cooperation between the algorithm designer, the programmer, the compiler, the instruction set architecture, the microarchitecture, and the underlying circuits.The group has strong collaborations with industry and an extensive open-source teaching portfolio at BS/MS/PhD levels.
-***
-A sampling of our research areas includes:
+&nbsp;&nbsp;Our main research areas and directions include IoT edge systems, passive wireless sensing systems, wireless system security, RFID technology, cognitive mechanisms of image and visual information computing, extraction and selection of basic visual features, object recognition and image content understanding, computer networks, mobile analytics, and machine learning.
 
-**A. New Memory & Storage Architectures**
+## Scientific research achievements
 
-DRAM (Dynamic Random Access Memory) is the predominant technology used for computer memory. It is facing significant challenges in technology scaling, reliability, data retention, latency, bandwidth and power consumption. These greatly affect performance, energy, security/safety/reliability & scalability of computing platforms and applications. We rigorously understand and solve these challenges via novel techniques across the computing stack. To this end, we build hardware infrastructures (see cover figure) and follow two key directions.
+### Typical achievements:
 
-**A.1. Fundamentally Better DRAM Architectures**
+#### Achievement 1: Passive Wireless Structure Health Monitoring (SHM) System
 
-***
 <div class="article-container">
   <div class="article">
-    <img src="/public/apple-touch-icon.png" alt="Figure 1" class="article-image">
+    <img src="/public/Passive Wireless Structure Health Monitoring (SHM) System.png" alt="Figure 1" class="article-image">
     <p class="article-description">
-      Figure 1: Our Tesseract Processing in Memory system for Graph Processing (ISCA’15) provides more than 13X performance improvement and 8X energy reduction over state-of-the-art systems. Many works have been built on Tesseract, which provides a blueprint for future PIM systems.
-    </p>
-  </div>
-  <div class="article">
-    <img src="/public/apple-touch-icon.png" alt="Figure 2" class="article-image">
-    <p class="article-description">
-      Figure 2: Our bioinformatics work covers the entire genome analysis pipeline. Collectively, our algorithm-architecture co-design techniques provide >100X performance improvement & energy reduction over state-of-the-art systems. Figure replicated from our IEEE Micro 2020 invited paper “Accelerating Genome Analysis: A Primer on an Ongoing Journey”.
+      &nbsp;&nbsp;This achievement has developed a system prototype for health monitoring of ultra-low power structures. Solved the key issues of high power consumption, short battery life, and high cost in existing systems, and achieved completely passive structural health monitoring. Working wirelessly through a reader, the reading distance can reach 1 meter, and the sensor group can penetrate up to 10 meters deep into buildings, reducing costs by 80% compared to existing systems. Easy to deploy on a large scale.
     </p>
   </div>
 </div>
+
+
+#### Achievement 2: Passive Rail Structure Health Monitoring (SHM) System
+
+<div class="article-container">
+  <div class="article">
+    <img src="/public/Passive Rail Structure Health Monitoring (SHM) System.png" alt="Figure 2" class="article-image">
+    <p class="article-description">
+      &nbsp;&nbsp;This achievement has developed a prototype system for health monitoring of low-cost rail structures. Solved key issues such as high hardware and deployment costs, as well as difficulties in power supply in existing systems, and achieved a completely passive rail structure health monitoring system. The system utilizes the wind generated by the passing of the train to work and can monitor the health status of the railway tracks in real time (deflection, vibration, etc.). The overall cost of the system has been reduced by 85% compared to existing products. This system won the second prize in the 2018 National Smart City Creative and Design Competition.
+    </p>
+  </div>
+</div>
+
+
+#### Achievement 3: Processor free IoT terminal architecture
+
+<div class="article-container">
+  <div class="article">
+    <img src="/public/Processor free IoT terminal architecture.png" alt="Figure 3" class="article-image">
+    <p class="article-description">
+      &nbsp;&nbsp;This achievement has developed a system prototype for ultra-low power IoT. Solved key issues such as high power consumption, difficult reconstruction, and difficult maintenance in existing systems, and achieved direct access to IoT peripherals through RF signals. Enabling IoT terminals to operate without the assistance of processors, reducing system complexity and power consumption to only 1/10-1/80 of existing systems. Meanwhile, as there is no need to write embedded programs, this system is also easier to maintain. The paper based on this system was published at the top conference in the field of mobile computing, ACM Mobicom2020, in 2020.
+    </p>
+  </div>
+</div>
+
+
+#### Achievement 4: Low power energy sensing technology
+
+<div class="article-container">
+  <div class="article">
+    <img src="/public/Low power energy sensing technology.png" alt="Figure 4" class="article-image">
+    <p class="article-description">
+      &nbsp;&nbsp;A low-power energy detection method has been proposed. It abandons the high energy consumption polling strategy in traditional energy detection and instead adopts a trigger based detection strategy. The device fully delegates the function of energy detection to an energy detection module. Before the energy reaches the threshold, the device can be charged in low-power mode, and only the module detects energy in a low-power manner; When the energy reaches the threshold, the module outputs a trigger signal to wake up the device and start working. Triggered energy detection eliminates the need for periodic wake-up to perform polling operations and process polling results, reducing the computational burden on the device. Its power consumption is only 5.2% of that of polling based detection. The paper "Sentinel: Breaking the Bottleneck of Energy Utilization Efficiency in RF Powered Devices" based on this achievement has been accepted by IEEE Internet of Things Journal.
+    </p>
+  </div>
+</div>
+
+
+#### Achievement 5: Plug and Play Internet of Things
+
+<div class="article-container">
+  <div class="article">
+    <img src="/public/Plug and Play Internet of Things.png" alt="Figure 5" class="article-image">
+    <p class="article-description">
+      &nbsp;&nbsp;This achievement has developed an IoT prototype that supports plug and play of peripherals for rapid functional updates. Solved key issues such as high development costs, high technical barriers, long cycles, and difficulty in restructuring existing IoT systems. The design of this achievement includes a unified peripheral description language, a unified peripheral interface, and an adaptive peripheral scheduler, which can achieve adaptive access and control of common commercial IoT peripherals. The paper based on this system was submitted to the top conference in the field of mobile computing, ACM NSDI 2022, in September 2021.
+    </p>
+  </div>
+</div>
+
 
 
