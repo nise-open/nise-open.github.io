@@ -34,12 +34,6 @@ hero:
 <script setup>
 import { ref, computed } from 'vue'
 
-const images = [
-  'apple-touch-icon.png',
-  'favicon-96x96.png',
-  'apple-touch-icon.png'
-]
-
 // 定义新闻数据
 const newsData = [
 ]
@@ -67,7 +61,7 @@ const prevPage = () => {
 }
 </script>
 
-<Carousel :images="images" :interval="3000" />
+<!-- <Carousel :images="images" :interval="3000" /> -->
 
 The NISE laboratory is led by Prof. Li Lu. We are part of the School of Computer Science and Engineering, University of Electronic Science and Technology of China.
 
