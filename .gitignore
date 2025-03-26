@@ -1,7 +1,7 @@
 ### Node ###
 # Lockfiles
 package-lock.json
-bun.lockb
+bun.lock
 
 # Logs
 logs
@@ -178,3 +178,6 @@ Temporary Items
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
+
+### Others ###
+.snapshot

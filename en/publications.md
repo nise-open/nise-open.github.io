@@ -3,22 +3,27 @@
 Han Wang, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, Li Lu  
 *MOBICOM,2024.*  
 [DOI:10.1145/3636534.3690686](https://dl.acm.org/doi/10.1145/3636534.3690686)
+
 ## Processor-Sharing Internet of Things Architecture for Large-scale Deployment
 Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, Li Lu, Hongzi Zhu   
 *SENSYS,2024.*  
 [DOI:10.1145/3666025.3699333](https://dl.acm.org/doi/10.1145/3666025.3699333)
+
 ## Spatio-temporal graph learning: Traffic flow prediction of mobile edge computing in 5G/6G vehicular networks
 Chao Song, Jie Wu, Kunyang Xian, Jianfeng Huang, Li Lu    
 *Computer Networks,2024.*  
 [DOI:10.1016/J.COMNET.2024.110676](https://www.sciencedirect.com/science/article/abs/pii/S1389128624005085?via%3Dihub)
+
 ## Energy-Efficient Dynamic Configurable Datapath Architecture for IoT Devices  
 Ruizhe Zhang; Junhui Liu; Han Wang; Li Lu   
 *Journal of Communications and Information Networks,2024.*  
 [DOI:10.23919/JCIN.2024.10707103](https://ieeexplore.ieee.org/document/10707103)
+
 ## Low-Power Bluetooth-Enabled Electrocardiogram (ECG) Devices: Design, Performance, and Applications  
 Haili Wang, Yixiang Zhang, Junqin Zhang, Yongyao Nian   
 *ISAIMS, 2024.*  
 [DOI:10.1145/3644116.3644140](https://iopscience.iop.org/article/10.1088/1742-6596/2666/1/012026)
+
 ## A Low Power Wake-Up Receiver Design Based on Commercial Off-the-shelf Components  
 Yixiang Zhang; Guangyuan Zhang; Xiandong Shao  
 *IEEE Transactions on Knowledge and Data Engineering, 2024.*  
@@ -248,9 +253,3 @@ Li Lu, Yongshuai Liu
 鲁力,Muhammad Jawad HUSSAIN,朱金奇  
 *软件学报,2015.*  
 [DOI:10.13328/J.CNKI.JOS.004938](https://pubscholar.cn/articles/4e4ec73ac9998e20be438a951ed6c4d371cbe838452ff655805f742aec18e1b0cee963e50f7d3c0a00f8355ffed7aaa7)
-
-
-
-
-
-
