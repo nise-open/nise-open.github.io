@@ -4,9 +4,11 @@ layout: home
 titleTemplate: 电子科技大学
 
 hero:
-  name: "网络智能与安全实验室"
-  tagline: "泛在互联 · 智启未来"
-
+  name: "\n网络智能与安全实验室"
+  tagline: "\n泛在互联 · 智启未来\n\n\n"
+  image: 
+    src: /nise-logo.svg
+    alt: NISE
 ---
 
 The NISE laboratory is led by Prof. Li Lu. We are part of the School of Computer Science and Engineering, University of Electronic Science and Technology of China.

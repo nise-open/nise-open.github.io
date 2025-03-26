@@ -4,9 +4,11 @@ layout: home
 titleTemplate: UESTC
 
 hero:
-  name: "Network Intelligence and Security Laboratory"
-  tagline: "Forging Universal Connectivity, Empowering Intelligent Future"
-
+  name: "Network\nIntelligence & Security\nLaboratory"
+  tagline: "Forging Universal Connectivity\nEmpowering Intelligent Future"
+  image: 
+    src: /nise-logo.svg
+    alt: NISE
 ---
 
 The NISE laboratory is led by Prof. Li Lu. We are part of the School of Computer Science and Engineering, University of Electronic Science and Technology of China.
