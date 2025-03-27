@@ -10,12 +10,17 @@ export const en = defineConfig({
       { text: 'People', link: '/people' },
       {
         text: 'Research', items: [
-          { text: 'Research', link: '/research' },
-          { text: 'Publications', link: '/publications' },
+          { text: 'Overview', link: '/research' },
+          { text: 'Publications', link: '/publication' },
         ]
       },
-      { text: 'Work with us', link: '/work' },
-      { text: 'Contact us', link: '/contact' }
+      { text: 'Resources', link: '/resource' },
+      {
+        text: 'Contact us', items: [
+          { text: 'Work with us', link: '/work' },
+          { text: 'Contact Info', link: '/contact' },
+        ]
+      }
     ],
 
     footer: {

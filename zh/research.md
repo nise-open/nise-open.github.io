@@ -1,3 +1,7 @@
+---
+titleTemplate: 网络智能与安全实验室
+---
+
 # 研究
 
 ## Main research areas and directions

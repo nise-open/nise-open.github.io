@@ -44,7 +44,7 @@
     </linearGradient>
     <linearGradient id="paint1" x1="984" y1="224" x2="1160" y2="292" gradientUnits="userSpaceOnUse">
       <stop stop-color="#3D7DBD"></stop>
-      <stop offset="1" stop-color="#4488D0"></stop>
+      <stop offset="1" stop-color="#4080C0"></stop>
     </linearGradient>
     <linearGradient id="paint2" x1="1080" y1="400" x2="935" y2="1565" gradientUnits="userSpaceOnUse">
       <stop stop-color="#ABCCEF"></stop>
@@ -56,7 +56,7 @@
     </linearGradient>
     <linearGradient id="paint4" x1="970" y1="1930" x2="1775" y2="815" gradientUnits="userSpaceOnUse">
       <stop stop-color="#213E7C"></stop>
-      <stop offset="1" stop-color="#0C4480"></stop>
+      <stop offset="1" stop-color="#004080"></stop>
     </linearGradient>
   <clipPath id="SvgjsClipPath1040"><rect width="1000" height="1000" x="0" y="0" rx="350" ry="350"></rect></clipPath></defs>
 </svg></svg></g></g></svg>

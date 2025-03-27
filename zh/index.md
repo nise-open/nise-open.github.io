@@ -11,8 +11,10 @@ hero:
     alt: NISE
 ---
 
-The NISE laboratory is led by Prof. Li Lu. We are part of the School of Computer Science and Engineering, University of Electronic Science and Technology of China.
+网络智能与安全实验室成立于2018年1月，长期致力于物联网（IoT）、无线通信系统及安全、无源无线系统、射频识别（RFID）技术、网络与系统安全、数据挖掘与智能推荐、智能视频分析等领域的基础理论研究和关键技术研发，并开展相关系统的设计与实现。
 
-Founded in January 2018, the network intelligence and security team is committed to basic research and corresponding system research and development in the fields of wireless systems and security, passive systems, RFID technology, network and system security, data mining and recommendation, and intelligent video analysis. The research team includes 2 professors, 1 senior engineer and 1 associate professor. Among them, there are 2 doctoral supervisors, 1 postdoctoral fellow, 1 master's supervisor, and nearly 30 master's and doctoral students. In the past five years, the team has undertaken a number of projects such as the National Natural Science Foundation of China, the National Key R&D Programme, the National 863 Programme, and the National Science and Technology Support. Won the third prize of Sichuan Provincial Science and Technology Progress Award.
+团队现有成员包括教授1名、副教授1名、助理研究员1名、博士后研究人员2名，以及硕士、博士研究生共计30余名。近五年来，团队先后承担了国家自然科学基金、国家重点研发计划、国家高技术研究发展计划（863计划）、国家科技支撑计划等多个国家级科研项目，研究范围涵盖无源无线感知物联网系统、无线嵌入式系统及智能信息处理等前沿领域。
 
-We has made many research achievements in passive wireless perception Internet of Things systems, wireless embedded systems, intelligent information processing, etc., and has published more than 200 papers in well-known Transactions journals and top international academic conferences, including ACM/IEEE. The team has a laboratory area of more than 160 square metres, with complete R&D equipment and various system software, application software and design and development tools; it provides a complete R&D chain from perception front-end design, communication protocols and systems, intelligent information processing, cloud systems, and network security.
+团队在相关研究领域已取得丰硕成果，累计在ACM、IEEE等国际权威期刊和顶级学术会议上发表论文200余篇。团队现拥有实验室面积约160平方米，配备有先进的实验仪器、研发设备以及完善的系统软件、应用软件和开发工具，具备从感知前端设计、通信协议与系统研发，到智能信息处理、云端平台搭建和网络安全防护的全链条研究开发能力。
+
+此外，团队与国内外知名高校、科研院所保持广泛深入的合作，积极推动学术交流与联合研究，致力于培养高水平创新人才，推进相关技术领域的学术进步与产业发展。

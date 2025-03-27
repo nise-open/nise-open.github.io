@@ -14,8 +14,13 @@ export const zh = defineConfig({
           { text: '发表', link: '/zh/publications' },
         ]
       },
-      { text: '加入实验室', link: '/zh/work' },
-      { text: '联络我们', link: '/zh/contact' }
+      { text: '资源', link: '/zh/resource' },
+      {
+        text: '联系我们', items: [
+          { text: '加入团队', link: '/zh/work' },
+          { text: '联系方式', link: '/zh/contact' },
+        ]
+      }
     ],
 
     footer: {
