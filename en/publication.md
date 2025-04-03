@@ -102,11 +102,6 @@ Yalan Ye, Tongjie Pan, Qianhe Meng, Jingjing Li, Li Lu
 *IJCAI,2022.*  
 [DOI:10.24963/IJCAI.2022/509](https://www.ijcai.org/proceedings/2022/509)  
 
-#### BioTouch: Reliable Re-Authentication via Finger Bio-Capacitance and Touching Behavior  
-Chong Zhang, Songfan Li,Yihang Song, Qianhe Meng,Li Lu, Mengshu Hou   
-*Sensors,2022.*  
-[DOI:10.3390/S22093583](https://www.mdpi.com/1424-8220/22/9/3583)  
-
 #### Butterfly: μW Level ULP Sensor Nodes with High Task Throughput  
 Chong Zhang, Li Lu , Yihang Song, Qianhe Meng, Junqin Zhang, Xiandong Shao, Guangyuan Zhang, Mengshu Hou   
 *Sensors,2022.*  
@@ -158,11 +153,6 @@ Wenwen He; Yalan Ye; Yunxia Li; Tongjie Pan; Li Lu
 *计算机学报,2021.*  
 [DOI:](https://pubscholar.cn/articles/eb5e62f08c0b88b9ca920a1f3e368a15de9b5dffa8acb39ebb792c969ac6a1f6b22f0517a6346678dba89a9ae4d35088)  
 
-#### TouchSense: Accurate and Transparent User Re-authentication via Finger Touching  
-Chong Zhang, Songfan Li, Yihang Song, Li Lu, Mengshu Hou   
-*International Conference on Edge Computing and IoT,2021.*  
-[DOI:10.1007/978-3-030-73429-9_7](https://link.springer.com/chapter/10.1007/978-3-030-73429-9_7)  
-
 ### 2020
 #### Internet-of-microchips: direct radio-to-bus communication with SPI backscatter  
 Songfan Li, Chong Zhang, Yihang Song, Hui Zheng, Lu Liu, Li Lu, Mo Li  
@@ -170,10 +160,6 @@ Songfan Li, Chong Zhang, Yihang Song, Hui Zheng, Lu Liu, Li Lu, Mo Li
 [DOI:10.1145/3372224.3419182](https://dl.acm.org/doi/10.1145/3372224.3419182)  
 
 ### 2018
-#### Breaking the Bottleneck of Energy Utilization Efficiency in RF-Powered Devices  
-Songfan Li; Li Lu; Muhammad Jawad Hussain; Yalan Ye; Hongzi Zhu  
-*IEEE Internet of Things Journal,2018.*  
-[DOI:10.1109/JIOT.2018.2854374](https://ieeexplore.ieee.org/document/8409282)  
 
 #### Sentinel: Breaking the Bottleneck of Energy Utilization Efficiency in RF-Powered Devices  
 Songfan Li; Li Lu; Muhammad Jawad Hussain; Yalan Ye; Hongzi Zhu  
