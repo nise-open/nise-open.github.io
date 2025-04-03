@@ -56,6 +56,8 @@ Songfan Li, Qianhe Meng, Yanxu Bai, Chong Zhang, Yihang Song, Shengyu Li, Li Lu
 *MOBICOM, 2023.*  
 [DOI:10.1145/3570361.3613284](https://dl.acm.org/doi/10.1145/3570361.3613284)
 
+张翀, 鲁力. 无线总线物联网边端体系—节点架构[J]. 中国计算机学会通讯（CCCF）2023, 6(11): 54-58
+
 #### Watch Out Your Thumb Drive: Covert Data Theft From Portable Data Storage via Backscatter  
 Shengyu Li; Songfan Li; Qingqing Liu; Yihang Song; Chong Zhang; Li Lu  
 *IEEE Transactions on Dependable and Secure Computing, 2023.*  
@@ -86,6 +88,8 @@ Yihang Song, Chao Song, Li Lu, Shen Yang, Songfan Li, Chong Zhang, Qianhe Meng, 
 Yalan Ye; Chunji Wang; Hai Dong; Li Lu; Qiang Zhao   
 *2022 26th International Conference on Pattern Recognition,2022.*  
 [DOI:10.1109/ICPR56361.2022.9956207](https://ieeexplore.ieee.org/document/9956207)  
+
+鲁力. 无线总线物联网边端系统[J]. 中国计算机学会通讯（CCCF）2022, 7(18): 57-62
 
 #### ACM: Accuracy-Aware Collaborative Monitoring for Software-Defined Network-Wide Measurement  
 Jiqing Gu, Chao Song, Haipeng Dai, Lei Shi, Jinqiu Wu, Li Lu    
