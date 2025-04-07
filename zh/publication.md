@@ -146,3 +146,5 @@ Muhammad Jawad Hussain, Li Lu, Shan Gao
 Saiyu Qi, Yuanqing Zheng, Mo Li, Li Lu, Yunhao Liu  
 *IEEE Transactions on Computers,2016.*  
 [DOI:10.1109/TC.2016.2538260](https://ieeexplore.ieee.org/document/7426406)  
+<<<<<<< HEAD
+=======
