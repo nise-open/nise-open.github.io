@@ -1,5 +1,6 @@
 ---
 layout: page
+title: 人员
 titleTemplate: 网络智能与安全实验室
 ---
 
@@ -191,6 +192,8 @@ const MasterStudents = [
   }
 ]
 </script>
+
+<!-- # 人员 -->
 
 <VPTeamPage>
   <VPTeamPageTitle>

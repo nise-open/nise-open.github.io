@@ -1,5 +1,6 @@
 ---
 layout: page
+title: People
 ---
 
 <script setup>
@@ -190,6 +191,8 @@ const MasterStudents = [
   }
 ]
 </script>
+
+<!-- # People -->
 
 <VPTeamPage>
   <VPTeamPageTitle>
