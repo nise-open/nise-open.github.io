@@ -1,3 +1,7 @@
+---
+outline: false
+---
+
 # Resources
 
 ## Recommended Academic Conferences and Journals
