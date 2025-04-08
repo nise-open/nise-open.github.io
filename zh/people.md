@@ -1,6 +1,7 @@
 ---
 layout: page
 
+titleTemplate: 网络智能与安全实验室
 ---
 
 <script setup>

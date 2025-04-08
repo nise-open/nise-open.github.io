@@ -8,19 +8,9 @@ export const en = defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'People', link: '/people' },
-      {
-        text: 'Research', items: [
-          { text: 'Overview', link: '/research' },
-          { text: 'Publications', link: '/publication' },
-        ]
-      },
+      { text: 'Publications', link: '/publication' },
       { text: 'Resources', link: '/resource' },
-      {
-        text: 'Contact us', items: [
-          { text: 'Work with us', link: '/work' },
-          { text: 'Contact Info', link: '/contact' },
-        ]
-      }
+      { text: 'Contact us', link: '/contact' },
     ],
 
     footer: {

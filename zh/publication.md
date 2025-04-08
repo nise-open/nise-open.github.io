@@ -7,9 +7,9 @@ outline: 3
 ## 重点推荐
 [<span style="color: red; font-weight: bold;">ACM SenSys '24</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Processor-Sharing Internet of Things Architecture for Large-scale Deployment</span>   
 Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>, Hongzi Zhu  
-*[Best Paper Award] [CCF A]*
+*[Best Paper Award] [CCF B]*
 
-[<span style="color: red; font-weight: bold;">ACM SenSys '24</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Sisyphus: Redefining Low Power for LoRa Receiver</span>   
+[<span style="color: red; font-weight: bold;">ACM MobiCom '24</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Sisyphus: Redefining Low Power for LoRa Receiver</span>   
 Han Wang, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>  
 *[CCF A]*
 
