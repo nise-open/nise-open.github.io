@@ -23,7 +23,13 @@ Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe L
 #### Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers
 Shengyu Li，Mengchen Teng，Boyu Li，Songfan Li，Xiandong Shao，Chong Zhang, Li Lu  
 *31th Annual International Conference on Mobile Computing and Networking*  
-*(MobiCom 2025)*  
+*(MobiCom 2025)* 
+
+#### Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing
+[DOI:10.1109/TMC.2025.3567635](https://doi.org/10.1109/TMC.2025.3567635)
+
+#### Unilateral Control for Social Welfare of Iterated Game in Mobile Crowdsensing
+[DOI:10.1007/s11390-023-3041-0](https://doi.org/10.1007/s11390-023-3041-0)
 
 ### 2024
 #### Sisyphus: Redefining Low Power for LoRa Receiver
@@ -49,10 +55,8 @@ Ruizhe Zhang; Junhui Liu; Han Wang; Li Lu
 *Journal of Communications and Information Networks*  
 [DOI:10.23919/JCIN.2024.10707103](https://doi.org/10.23919/jcin.2024.10707103)
 
-#### A Low Power Wake-Up Receiver Design Based on Commercial Off-the-shelf Components  
-Yixiang Zhang; Guangyuan Zhang; Xiandong Shao  
-*IEEE Transactions on Knowledge and Data Engineering*  
-[DOI:10.1109/EIECC60864.2023.10456662](https://ieeexplore.ieee.org/document/10456662)
+#### A Compact Impedance Matching Layer for Dual-Band Implantable Medical Devices
+[DOI:10.1109/LAWP.2024.3424279](https://doi.org/10.1109/LAWP.2024.3424279)
 
 #### Compact Estimator for Streaming Triangle Counting  
 Jiqing Gu; Chao Song; Haipeng Dai; Li Lu; Ming Liu  
@@ -60,6 +64,9 @@ Jiqing Gu; Chao Song; Haipeng Dai; Li Lu; Ming Liu
 [DOI:10.1109/TKDE.2024.3371228](https://ieeexplore.ieee.org/document/10453507)
 
 ### 2023
+#### A Lightweight and Chip-Level Reconfigurable Architecture for Next-Generation IoT End Devices
+[DOI:10.1109/TC.2023.3343094](https://doi.org/10.1109/TC.2023.3343094)
+
 #### Go Beyond RFID: Rethinking the Design of RFID Sensor Tags for Versatile Applications  
 Songfan Li, Qianhe Meng, Yanxu Bai, Chong Zhang, Yihang Song, Shengyu Li, Li Lu  
 *MobiCom, 2023.*  
