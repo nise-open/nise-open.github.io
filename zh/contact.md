@@ -7,4 +7,4 @@ outline: false
 
 ## 邮箱
 
-public@nise.ac.cn
+[public@nise.ac.cn](mailto:public@nise.ac.cn)

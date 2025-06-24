@@ -7,4 +7,4 @@ outline: false
 
 ## Email
 
-public@nise.ac.cn
+[public@nise.ac.cn](mailto:public@nise.ac.cn)
