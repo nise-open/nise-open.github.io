@@ -1,27 +1,22 @@
 ---
-layout: page
-title: People
+outline: 2
 ---
 
 <script setup>
 import {
-  VPTeamPage,
-  VPTeamPageTitle,
-  VPTeamMembers,
-  VPTeamPageSection
+  VPTeamMembers
 } from 'vitepress/theme'
 
-
 const coreMembers = [
-  {
-    avatar: 'apple-touch-icon.png',
-    name: 'Chao Song',
-    title: 'Associate Professor'
-  },
   {
     avatar: '/apple-touch-icon.png',
     name: 'Li Lu',
     title: 'Professor, Director'
+  },
+  {
+    avatar: 'apple-touch-icon.png',
+    name: 'Chao Song',
+    title: 'Associate Professor'
   },
   {
     avatar: 'apple-touch-icon.png',
@@ -30,28 +25,24 @@ const coreMembers = [
   }
 ]
 
-const phdStudents  = [
-    {
+const phdStudents = [
+  {
     avatar: 'apple-touch-icon.png',
     name: 'Qianhe Meng'
   },
-      {
+  {
     avatar: 'apple-touch-icon.png',
     name: 'Ruilin Hu'
   },
-    {
+  {
     avatar: 'apple-touch-icon.png',
     name: 'Han Wang'
   },
-    {
+  {
     avatar: 'apple-touch-icon.png',
     name: 'Ruizhe Zhang'
   },
-    {
-    avatar: 'apple-touch-icon.png',
-    name: 'Ruilin Hu'
-  },
-      {
+  {
     avatar: 'apple-touch-icon.png',
     name: 'Yize Zhao'
   },
@@ -153,37 +144,23 @@ const msStudents = [
 ]
 </script>
 
-<!-- # People -->
+# People
+## Team Member
+### Supervisor
+<VPTeamMembers size="medium" :members="coreMembers" />
 
-<VPTeamPage>
-  <VPTeamPageTitle>
-    <template #title>Supervisors</template>
-  </VPTeamPageTitle>
-  <VPTeamMembers size="medium" :members="coreMembers" />
-  <VPTeamPageSection>
-    <template #title>PHD Students</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="phdStudents " />
-    </template>
-  </VPTeamPageSection>
-  <VPTeamPageSection>
-    <template #title>Master Students</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="msStudents" />
-    </template>
-  </VPTeamPageSection>
-  <VPTeamPageSection>
-    <template #title>Alumni</template>
-    
-## PhD Alumni
+### PhD Students
+<VPTeamMembers size="small" :members="phdStudents " />
 
+### Master Students
+<VPTeamMembers size="small" :members="msStudents" />
+
+## Alumni
+### PhD Alumni
 - Shengyu Li
 - Songfan Li
 - Chong Zhang
 - Yihang Song
 - Muhammad Jawad Hussain
 
-## Master Alumni
-
-  </VPTeamPageSection>
-</VPTeamPage>
+### Master Alumni
