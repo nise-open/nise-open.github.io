@@ -39,7 +39,7 @@ const phdStudents  = [
       {
     avatar: '/apple-touch-icon.png',
     name: '胡瑞林',
-  }
+  },
     {
     avatar: '/apple-touch-icon.png',
     name: '王晗',
