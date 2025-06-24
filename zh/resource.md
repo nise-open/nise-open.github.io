@@ -16,6 +16,7 @@ outline: false
 ## 实验室视觉识别系统
 ### 颜色
 #### 核心颜色：  
-感知蓝 #004080  
+<span style="color: #004080; font-weight: bold;">感知蓝 #004080</span>
+
 #### 辅助颜色：  
-智联红 #F04040
+<span style="color: #F04040; font-weight: bold;">智联红 #F04040</span>

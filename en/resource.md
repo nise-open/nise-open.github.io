@@ -16,6 +16,7 @@ outline: false
 ## Laboratory Visual Identity System
 ### Colors
 #### Primary Color:  
-Sensing Blue #004080  
+<span style="color: #004080; font-weight: bold;">Sensing Blue #004080</span>
+
 #### Secondary Color:  
-IntelliLink Red #F04040
+<span style="color: #F04040; font-weight: bold;">IntelliLink Red #F04040</span>
