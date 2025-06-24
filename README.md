@@ -15,18 +15,18 @@ Source code for the Network Intelligence & Security Laboratory official website,
 │   └─ workflows/deploy.yml       # GitHub Actions for build + deploy
 ├─ .vitepress/
 │   ├─ config/
-│   │   ├─ index.ts              # merges shared + en + zh via `locales`
-│   │   ├─ shared.ts             # shared VitePress config
-│   │   ├─ en.ts                 # English-specific config
-│   │   └─ zh.ts                 # Chinese-specific config
+│   │   ├─ index.ts              # main i18n entry, merges shared, en, zh configs
+│   │   ├─ shared.ts             # shared VitePress config, meta, plugins, theme base
+│   │   ├─ en.ts                 # English config (nav, footer, desc, etc.)
+│   │   └─ zh.ts                 # Chinese config (导航、页脚、本地化等)
 │   └─ theme/
-│       ├─ index.ts             # custom theme extension
-│       └─ styles.css           # theme styles
-├─ en/                          # English content
-│   └─ *.md                     # index, people, publication, etc.
-├─ zh/                          # Chinese content
-│   └─ *.md                     # mirror structure for Chinese
-├─ public/                      # static assets
+│       ├─ index.ts              # custom theme extension
+│       └─ styles.css            # theme styles
+├─ en/                           # English content (home, people, publication...)
+│   └─ *.md
+├─ zh/                           # Chinese content（主页、人员、发表...）
+│   └─ *.md
+├─ public/                       # static assets
 ├─ CNAME                         # custom domain setup
 ├─ LICENSE
 └─ package.json
@@ -36,21 +36,28 @@ Source code for the Network Intelligence & Security Laboratory official website,
 
 ## 🌐 i18n / Localization
 
-Your setup uses VitePress i18n via separate config files (`en.ts` & `zh.ts`) and directory-based content (`/en`, `/zh`).
-Ensure `locales` is configured in `.vitepress/config/index.ts`:
+Multilingual support is set up via VitePress locales and file-based routing.
+
+* Language configs: `.vitepress/config/en.ts` and `.vitepress/config/zh.ts`
+* Content directories: `/en` for English, `/zh` for Chinese
+* Locale config is handled in `.vitepress/config/index.ts` as follows:
 
 ```ts
-import shared from './shared'
-import en from './en'
-import zh from './zh'
+import { defineConfig } from "vitepress";
+import { shared } from './shared'
+import { en } from './en'
+import { zh } from './zh'
+
 export default defineConfig({
   ...shared,
   locales: {
-    root: { label: 'English', lang: 'en-US', link: '/en/', ...en },
-    zh: { label: '简体中文', lang: 'zh-CN', link: '/zh/', ...zh }
+    root: { label: 'English', ...en },
+    zh: { label: '简体中文', ...zh },
   }
 })
 ```
+
+* Navigation, footer, sidebar, and UI strings are localized and configured in respective language files.
 
 ---
 
@@ -97,30 +104,35 @@ npm run docs:build
 
 ## 🚀 Deploy via GitHub Pages
 
-Workflow defined in `.github/workflows/deploy.yml` uses VitePress build and GitHub Pages actions.
-A typical workflow would:
+Automated deployment is configured via [GitHub Actions](.github/workflows/deploy.yml). The default workflow uses **bun** for dependency management and build, but you may switch to yarn or npm by adjusting the respective commands in `deploy.yml`.
 
-1. Trigger on push to `main`
-2. Checkout, setup Node
-3. `npm ci` → `npm run docs:build`
-4. Deploy `.vitepress/dist` via `configure-pages`, `upload-pages-artifact`, and `deploy-pages`
+Deployment steps:
+
+1. Triggered on push to `main` or manually from the Actions tab.
+2. Install dependencies (`bun install` by default)
+3. Build the site with VitePress (`bun run build`)
+4. Upload and deploy `.vitepress/dist` to GitHub Pages
+
+You can customize these steps as needed.
 
 ---
 
-## 🛠️ Theme & Extensions
+## 🛠️ Theme, Plugins, and Features
 
-* Contains a custom theme in `.vitepress/theme/`.
-* Add support for Vue components, styling via CSS.
-* You may further integrate plugins like pagefind (search) or shiki code highlighting.
+* Custom theme under `.vitepress/theme/` (logo, colors, CSS, etc)
+* Icon support via `vitepress-plugin-group-icons`
+* English and Chinese UI/UX, including nav, outline, code copy button text, etc.
+* Supports math typesetting, code transformers, and improved code copy UX
+* Favicon, manifest, and mobile support in head meta
 
 ---
 
 ## ✍️ Content Guidelines
 
-* Write Markdown under `/en/` and `/zh/`, mirroring file structure.
-* Use frontmatter (`lang`, `title`) as needed.
-* You can embed Vue components in Markdown.
-* Static assets (logos, icons) go into `public/`.
+* Write Markdown under `/en/` and `/zh/`, with parallel structure
+* Use appropriate frontmatter (`lang`, `title`) per language
+* Vue components can be embedded in Markdown
+* Static assets (logos, icons) go in `public/`
 
 ---
 
