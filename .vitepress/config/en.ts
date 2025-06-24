@@ -12,7 +12,6 @@ export const en = defineConfig({
       { text: 'Resources', link: '/resource' },
       { text: 'Contact us', link: '/contact' },
     ],
-
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-present NISE Laboratory'
