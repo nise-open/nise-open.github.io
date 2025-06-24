@@ -4,15 +4,29 @@ outline: 3
 
 # Selected Publications
 ## Highlighted
+[<span style="color: red; font-weight: bold;">ACM MobiSys '25</span> ] <span style="color: CornflowerBlue; font-weight: bold;">LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems</span>   
+Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>
+
+[<span style="color: red; font-weight: bold;">ACM MobiCom '25</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers</span>   
+Shengyu Li，Mengchen Teng，Boyu Li，Songfan Li，Xiandong Shao，Chong Zhang, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>
+
 [<span style="color: red; font-weight: bold;">ACM SenSys '24</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Processor-Sharing Internet of Things Architecture for Large-scale Deployment</span>   
 Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>, Hongzi Zhu  
-*[Best Paper Award] [CCF B]*
+*[Best Paper Award]*
 
 [<span style="color: red; font-weight: bold;">ACM MobiCom '24</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Sisyphus: Redefining Low Power for LoRa Receiver</span>   
 Han Wang, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>  
-*[CCF A]*
 
 ## All
+### 2025
+#### LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems
+Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, Li Lu  
+*MobiSys, 2025.*  
+
+#### Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers
+Shengyu Li，Mengchen Teng，Boyu Li，Songfan Li，Xiandong Shao，Chong Zhang, Li Lu  
+*MobiCom, 2025.*  
+
 ### 2024
 #### Sisyphus: Redefining Low Power for LoRa Receiver
 Han Wang, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, Li Lu  
