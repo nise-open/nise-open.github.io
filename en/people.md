@@ -13,18 +13,15 @@ import {
 
 
 const coreMembers = [
-    {
-    avatar: '/apple-touch-icon.png',
+  {
+    name: 'Chao Song',
+    title: 'Associate Professor'
+  },
+  {
     name: 'Li Lu',
     title: 'Professor,Director'
   },
     {
-    avatar: 'apple-touch-icon.png',
-    name: 'Chao Song',
-    title: 'Associate Professor'
-  },
-    {
-    avatar: 'apple-touch-icon.png',
     name: 'Hui Jiang',
     title: 'Research Assistant'
   }
