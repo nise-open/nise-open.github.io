@@ -5,25 +5,40 @@ outline: 3
 
 # 精选文章
 ## 重点推荐
-[<span style="color: red; font-weight: bold;">ACM SenSys '24</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Processor-Sharing Internet of Things Architecture for Large-scale Deployment</span>   
-Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>, Hongzi Zhu  
-*[Best Paper Award] [CCF B]*
+**[ACM MobiSys '25]** <span style="color: CornflowerBlue; font-weight: bold;">LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems</span>   
+Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, **Li Lu**
 
-[<span style="color: red; font-weight: bold;">ACM MobiCom '24</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Sisyphus: Redefining Low Power for LoRa Receiver</span>   
-Han Wang, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>  
-*[CCF A]*
+**[ACM MobiCom '25]** <span style="color: CornflowerBlue; font-weight: bold;">Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers</span>   
+Shengyu Li，Mengchen Teng，Boyu Li，Songfan Li，Xiandong Shao，Chong Zhang, **Li Lu**
 
-## 全部
+**[ACM SenSys '24]**<span style="color: red; font-weight: bold;">*(Best Paper Award)*</span> <span style="color: CornflowerBlue; font-weight: bold;">Processor-Sharing Internet of Things Architecture for Large-scale Deployment</span>   
+Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, **Li Lu**, Hongzi Zhu  
+
+## 全部精选
+### 2025
+#### LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems
+Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, Li Lu  
+*23rd ACM International Conference on Mobile Systems, Applications, and Services*  
+*(MobiSys 2025)*
+
+#### Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers
+Shengyu Li，Mengchen Teng，Boyu Li，Songfan Li，Xiandong Shao，Chong Zhang, Li Lu  
+*31th Annual International Conference on Mobile Computing and Networking*  
+*(MobiCom 2025)*  
+
 ### 2024
 #### Sisyphus: Redefining Low Power for LoRa Receiver
 Han Wang, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, Li Lu  
-*MobiCom, 2024.*  
-[DOI:10.1145/3636534.3690686](https://dl.acm.org/doi/10.1145/3636534.3690686)
+*30th Annual International Conference on Mobile Computing and Networking*  
+*(MobiCom 2024)*  
+[DOI:10.1145/3636534.3690686](https://doi.org/10.1145/3636534.3690686)
 
 #### Processor-Sharing Internet of Things Architecture for Large-scale Deployment
-Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, Li Lu, Hongzi Zhu   
-*SenSys, 2024.*  
-[DOI:10.1145/3666025.3699333](https://dl.acm.org/doi/10.1145/3666025.3699333)
+Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, Li Lu, Hongzi Zhu  
+*22nd ACM Conference on Embedded Networked Sensor Systems*  
+*(SenSys 2024)*  
+**Best Paper Award**  
+[DOI:10.1145/3666025.3699333](https://doi.org/10.1145/3666025.3699333)
 
 #### Spatio-temporal graph learning: Traffic flow prediction of mobile edge computing in 5G/6G vehicular networks
 Chao Song, Jie Wu, Kunyang Xian, Jianfeng Huang, Li Lu    

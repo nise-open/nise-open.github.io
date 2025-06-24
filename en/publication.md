@@ -4,58 +4,59 @@ outline: 3
 
 # Selected Publications
 ## Highlighted
-[<span style="color: red; font-weight: bold;">ACM MobiSys '25</span> ] <span style="color: CornflowerBlue; font-weight: bold;">LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems</span>   
-Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>
+**[ACM MobiSys '25]** <span style="color: CornflowerBlue; font-weight: bold;">LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems</span>   
+Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, **Li Lu**
 
-[<span style="color: red; font-weight: bold;">ACM MobiCom '25</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers</span>   
-Shengyu Li，Mengchen Teng，Boyu Li，Songfan Li，Xiandong Shao，Chong Zhang, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>
+**[ACM MobiCom '25]** <span style="color: CornflowerBlue; font-weight: bold;">Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers</span>   
+Shengyu Li，Mengchen Teng，Boyu Li，Songfan Li，Xiandong Shao，Chong Zhang, **Li Lu**
 
-[<span style="color: red; font-weight: bold;">ACM SenSys '24</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Processor-Sharing Internet of Things Architecture for Large-scale Deployment</span>   
-Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>, Hongzi Zhu  
-*[Best Paper Award]*
-
-[<span style="color: red; font-weight: bold;">ACM MobiCom '24</span> ] <span style="color: CornflowerBlue; font-weight: bold;">Sisyphus: Redefining Low Power for LoRa Receiver</span>   
-Han Wang, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, <span style="color: CornflowerBlue; font-weight: bold;">Li Lu</span>  
+**[ACM SenSys '24]**<span style="color: red; font-weight: bold;">*(Best Paper Award)*</span> <span style="color: CornflowerBlue; font-weight: bold;">Processor-Sharing Internet of Things Architecture for Large-scale Deployment</span>   
+Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, **Li Lu**, Hongzi Zhu  
 
 ## All
 ### 2025
 #### LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems
 Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, Li Lu  
-*MobiSys, 2025.*  
+*23rd ACM International Conference on Mobile Systems, Applications, and Services*  
+*(MobiSys 2025)*
 
 #### Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers
 Shengyu Li，Mengchen Teng，Boyu Li，Songfan Li，Xiandong Shao，Chong Zhang, Li Lu  
-*MobiCom, 2025.*  
+*31th Annual International Conference on Mobile Computing and Networking*  
+*(MobiCom 2025)*  
 
 ### 2024
 #### Sisyphus: Redefining Low Power for LoRa Receiver
 Han Wang, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, Li Lu  
-*MobiCom, 2024.*  
-[DOI:10.1145/3636534.3690686](https://dl.acm.org/doi/10.1145/3636534.3690686)
+*30th Annual International Conference on Mobile Computing and Networking*  
+*(MobiCom 2024)*  
+[DOI:10.1145/3636534.3690686](https://doi.org/10.1145/3636534.3690686)
 
 #### Processor-Sharing Internet of Things Architecture for Large-scale Deployment
-Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, Li Lu, Hongzi Zhu   
-*SenSys, 2024.*  
-[DOI:10.1145/3666025.3699333](https://dl.acm.org/doi/10.1145/3666025.3699333)
+Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, Li Lu, Hongzi Zhu  
+*22nd ACM Conference on Embedded Networked Sensor Systems*  
+*(SenSys 2024)*  
+**Best Paper Award**  
+[DOI:10.1145/3666025.3699333](https://doi.org/10.1145/3666025.3699333)
 
 #### Spatio-temporal graph learning: Traffic flow prediction of mobile edge computing in 5G/6G vehicular networks
 Chao Song, Jie Wu, Kunyang Xian, Jianfeng Huang, Li Lu    
-*Computer Networks, 2024.*  
-[DOI:10.1016/J.COMNET.2024.110676](https://www.sciencedirect.com/science/article/abs/pii/S1389128624005085?via%3Dihub)
+*Computer Networks*  
+[DOI:10.1016/J.COMNET.2024.110676](https://doi.org/10.1016/j.comnet.2024.110676)
 
 #### Energy-Efficient Dynamic Configurable Datapath Architecture for IoT Devices  
 Ruizhe Zhang; Junhui Liu; Han Wang; Li Lu   
-*Journal of Communications and Information Networks, 2024.*  
-[DOI:10.23919/JCIN.2024.10707103](https://ieeexplore.ieee.org/document/10707103)
+*Journal of Communications and Information Networks*  
+[DOI:10.23919/JCIN.2024.10707103](https://doi.org/10.23919/jcin.2024.10707103)
 
 #### A Low Power Wake-Up Receiver Design Based on Commercial Off-the-shelf Components  
 Yixiang Zhang; Guangyuan Zhang; Xiandong Shao  
-*IEEE Transactions on Knowledge and Data Engineering, 2024.*  
+*IEEE Transactions on Knowledge and Data Engineering*  
 [DOI:10.1109/EIECC60864.2023.10456662](https://ieeexplore.ieee.org/document/10456662)
 
 #### Compact Estimator for Streaming Triangle Counting  
 Jiqing Gu; Chao Song; Haipeng Dai; Li Lu; Ming Liu  
-*IEEE Transactions on Knowledge and Data Engineering, 2024.*  
+*IEEE Transactions on Knowledge and Data Engineering*  
 [DOI:10.1109/TKDE.2024.3371228](https://ieeexplore.ieee.org/document/10453507)
 
 ### 2023
