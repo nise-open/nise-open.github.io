@@ -11,15 +11,17 @@ const coreMembers = [
   {
     avatar: '/apple-touch-icon.png',
     name: 'Li Lu',
-    title: 'Professor, Director'
+    title: 'Professor, Director',
+    desc: 'Born in 1978, Ph.D., Professor, and Doctoral Supervisor. Deputy Dean of the School of Computer Science and Engineering (School of Cyberspace Security) at UESTC. His main research areas are ultra-low power high-performance wireless systems, IoT computing systems, and wireless system security. He has led more than 20 projects, including key projects of the National Natural Science Foundation of China and topics of the National Key R&D Program. He has published over 80 papers in top international conferences such as ACM MobiCom, USENIX NSDI, and ACM ASPLOS. He holds over 20 domestic authorized patents. As a key member, his work in industrial control system security won the First Prize of the National Science and Technology Progress Award in 2019.'
   },
   {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Chao Song',
-    title: 'Associate Professor'
+    title: 'Associate Professor',
+    desc: 'Ph.D., Associate Professor. He has been engaged in graph data mining research for many years, mainly focusing on dynamic graph stream mining, graph neural network modeling, and graph-driven system optimization. He has published over 50 academic papers in renowned international conferences and journals, and holds 5 domestic authorized patents.'
   },
   {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Hui Jiang',
     title: 'Research Assistant Professor'
   }
@@ -27,118 +29,118 @@ const coreMembers = [
 
 const phdStudents = [
   {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Qianhe Meng'
   },
   {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Ruilin Hu'
   },
   {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Han Wang'
   },
   {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Ruizhe Zhang'
   },
   {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Yize Zhao'
   },
 ]
 
 const msStudents = [
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Zetao Gao',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Jiewei He',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Jianfeng Huang',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Boyu Li',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Zheng Ren',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Yuxuan Fu',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Chengxin Hu'
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Jinzhe Li'
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Yuyang Tang'
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Mengchen Teng'
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Kunyang Xian'
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Kanglin Xu'
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Yize Zhao'
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Xuyi Chen',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Yanan He',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Yushun He',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Zhixue Ji',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Junhui Liu',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Xu Pang',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Shuwei Wu',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Chenchen Xie',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Chen Yang',
   },
     {
-    avatar: 'apple-touch-icon.png',
+    avatar: '/apple-touch-icon.png',
     name: 'Hao Zhang',
   }
 ]

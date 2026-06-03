@@ -1,6 +1,6 @@
-# NISE Lab Official Site
+# Intelligent Computing Systems Laboratory Official Site
 
-Source code for the Network Intelligence & Security Laboratory official website, built with VitePress.
+Source code for the Intelligent Computing Systems Laboratory official website, built with VitePress.
 
 * 🌐 **Live Site**: [https://www.nise.ac.cn](https://www.nise.ac.cn)
 * 🗃️ **GitHub Repo**: [https://github.com/nise-open/nise-open.github.io](https://github.com/nise-open/nise-open.github.io)

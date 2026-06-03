@@ -1,6 +1,6 @@
 ---
 outline: 2
-titleTemplate: 网络智能与安全实验室
+titleTemplate: 智能计算系统实验室
 ---
 
 <script setup >
@@ -12,12 +12,14 @@ const coreMembers = [
   {
     avatar: '/apple-touch-icon.png',
     name: '鲁力',
-    title: '教授，负责人'
+    title: '教授，负责人',
+    desc: '1978年生，博士，教授，博士生导师。电子科技大学计算机科学与工程学院（网络空间安全学院）副院长。主要研究方向为超低功耗高性能无线系统、物联网计算系统、以及无线系统安全。作为项目负责人承担了包括国家自然科学基金重点项目、科技部重点研发计划课题等项目20余项。在ACM MobiCom、USENIX NSDI、ACM ASPLOS等国际顶级学术会议上发表论文80余篇。获得20余项国内专利授权。作为主要成员，在工业控制系统安全方面成果获2019年国家科技进步一等奖。'
   },
   {
     avatar: '/apple-touch-icon.png',
     name: '宋超',
-    title: '副教授'
+    title: '副教授',
+    desc: '博士，副教授。长年从事图数据挖掘领域的研究，主要聚焦于动态图流挖掘、图神经网络建模及图驱动的系统优化。在知名国际会议和国际期刊上发表学术论文50余篇，获得5项国内专利授权。'
   },
   {
     avatar: '/apple-touch-icon.png',
