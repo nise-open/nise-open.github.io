@@ -6,7 +6,7 @@ import {
 } from 'vitepress-plugin-group-icons'
 
 export const shared = defineConfig({
-  title: 'NISE Laboratory',
+  title: 'Intelligent Computing Systems Laboratory',
   
   rewrites: {
     'en/:rest*': ':rest*'
@@ -54,7 +54,7 @@ export const shared = defineConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'NISE' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'ICSL' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }]
   ],
 

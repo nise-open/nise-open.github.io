@@ -1,6 +1,6 @@
 ---
 outline: 2
-titleTemplate: 网络智能与安全实验室
+titleTemplate: 智能计算系统实验室
 ---
 
 <script setup >

@@ -2,11 +2,11 @@
 layout: home
 titleTemplate: UESTC
 hero:
-  name: "Network\nIntelligence & Security\nLaboratory"
-  tagline: "Forging Universal Connectivity\nEmpowering Intelligent Future"
+  name: "Intelligent Computing Systems\nLaboratory"
+  tagline: "Next-generation Intelligent Systems & Ecosystems"
   image: 
     src: /nise-logo.svg
-    alt: NISE
+    alt: ICSL
 ---
 
-The Network Intelligence and Security Laboratory (NISE), led by Professor Li Lu, focuses on developing ultra-low-power and energy self-sustaining intelligent IoT systems. The laboratory is committed to driving technological innovation in computer systems, networking, and security, actively transforming cutting-edge research into practical applications.
+The Intelligent Computing Systems Laboratory (ICSL), led by Professor Li Lu, focuses on Next-generation Intelligent Systems & Ecosystems (NISE), developing ultra-low-power and energy self-sustaining intelligent IoT systems. The laboratory is committed to driving technological innovation in computer systems, networking, and security, actively transforming cutting-edge research into practical applications.

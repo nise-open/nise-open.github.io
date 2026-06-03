@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export const zh = defineConfig({
   lang: 'zh-Hans',
-  description: '电子科技大学网络智能与安全实验室网站',
+  description: '电子科技大学智能计算系统实验室网站',
 
   themeConfig: {
     nav: [
@@ -15,7 +15,7 @@ export const zh = defineConfig({
 
     footer: {
       message: '基于 MIT 许可发布',
-      copyright: `版权所有 © 2024-${new Date().getFullYear()} 网络智能与安全实验室`
+      copyright: `版权所有 © 2024-${new Date().getFullYear()} 智能计算系统实验室`
     },
 
     docFooter: {

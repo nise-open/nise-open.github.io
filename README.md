@@ -1,4 +1,4 @@
-# NISE Lab Official Site
+# Intelligent Computing Systems Laboratory Official Site
 
 Source code for the Network Intelligence & Security Laboratory official website, built with VitePress.
 

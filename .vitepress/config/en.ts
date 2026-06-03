@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export const en = defineConfig({
   lang: 'en-US',
-  description: 'The website of Network Intelligence and Security Laboratory at the University of Electronic Science and Technology of China.',
+  description: 'The website of Intelligent Computing Systems Laboratory at the University of Electronic Science and Technology of China.',
 
   themeConfig: {
     nav: [
@@ -14,7 +14,7 @@ export const en = defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present NISE Laboratory'
+      copyright: 'Copyright © 2024-present Intelligent Computing Systems Laboratory'
     }
   }
 })
