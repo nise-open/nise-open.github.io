@@ -57,12 +57,28 @@ export const shared = defineConfig({
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ICSL' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['script', {}, `
-      if (window.location.pathname === '/' && !sessionStorage.getItem('lang-redirected')) {
-        sessionStorage.setItem('lang-redirected', '1');
-        if (navigator.language && navigator.language.startsWith('zh')) {
-          window.location.href = '/zh/';
+      (function () {
+        var themeKey = 'vitepress-theme-appearance';
+        var langKey = 'nise-lang';
+        var theme = localStorage.getItem(themeKey) || 'auto';
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', theme === 'dark' || (theme === 'auto' && prefersDark));
+
+        if (window.location.pathname === '/' && !sessionStorage.getItem('lang-redirected')) {
+          sessionStorage.setItem('lang-redirected', '1');
+          var savedLang = localStorage.getItem(langKey);
+          var languages = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+          var useZh = savedLang ? savedLang === 'zh' : languages.some(function (lang) {
+            return /^zh\\b/i.test(lang);
+          });
+          if (useZh) {
+            localStorage.setItem(langKey, 'zh');
+            window.location.href = '/zh/';
+          } else {
+            localStorage.setItem(langKey, 'en');
+          }
         }
-      }
+      })();
     `]
   ],
 

@@ -2,3 +2,69 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #F04040, #004080);
 }
+
+.VPNavBarAppearance {
+  display: none !important;
+}
+
+.NiseThemeMode {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: var(--vp-nav-height);
+  padding-left: 12px;
+  color: var(--vp-c-text-2);
+  white-space: nowrap;
+}
+
+.NiseThemeModeLabel {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.NiseThemeModeSelect {
+  height: 30px;
+  min-width: 96px;
+  padding: 0 28px 0 10px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-bg);
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.NiseThemeModeSelect:focus {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
+.VPHero.has-image .container {
+  padding-top: 40px;
+}
+
+.VPHero.has-image .image-container {
+  transform: translate(0, 12px);
+}
+
+@media (max-width: 768px) {
+  .NiseThemeMode {
+    padding-left: 8px;
+  }
+
+  .NiseThemeModeLabel {
+    display: none;
+  }
+
+  .NiseThemeModeSelect {
+    min-width: 84px;
+  }
+
+  .VPHero.has-image .container {
+    padding-top: 64px;
+  }
+
+  .VPHero.has-image .image-container {
+    transform: translate(0, 20px);
+  }
+}
