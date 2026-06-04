@@ -9,27 +9,22 @@ const mode = ref<ThemeMode>('auto')
 const systemDark = ref(false)
 const { lang } = useData()
 
-const isZh = computed(() => {
-  return lang.value.startsWith('zh')
-})
+const isZh = computed(() => lang.value.startsWith('zh'))
 
-const label = computed(() => isZh.value ? '主题' : 'Theme')
-const options = computed(() => isZh.value
-  ? [
-      { value: 'light', text: '白天' },
-      { value: 'dark', text: '夜间' },
-      { value: 'auto', text: '跟随设备' }
-    ]
-  : [
-      { value: 'light', text: 'Light' },
-      { value: 'dark', text: 'Dark' },
-      { value: 'auto', text: 'System' }
-    ])
+const options = computed<{ value: ThemeMode; labelZh: string; labelEn: string; icon: string }[]>(() => [
+  { value: 'light', labelZh: '白天', labelEn: 'Light',  icon: '☀' },
+  { value: 'auto',  labelZh: '自动', labelEn: 'System', icon: '⬤' },
+  { value: 'dark',  labelZh: '夜间', labelEn: 'Dark',   icon: '☽' },
+])
+
+function label(opt: { labelZh: string; labelEn: string }) {
+  return isZh.value ? opt.labelZh : opt.labelEn
+}
 
 function readMode(): ThemeMode {
   if (typeof localStorage === 'undefined') return 'auto'
-  const value = localStorage.getItem(storageKey)
-  return value === 'light' || value === 'dark' || value === 'auto' ? value : 'auto'
+  const v = localStorage.getItem(storageKey)
+  return v === 'light' || v === 'dark' || v === 'auto' ? v : 'auto'
 }
 
 function applyMode(value: ThemeMode) {
@@ -41,8 +36,8 @@ function applyMode(value: ThemeMode) {
   )
 }
 
-function handleSystemChange(event: MediaQueryListEvent) {
-  systemDark.value = event.matches
+function handleSystemChange(e: MediaQueryListEvent) {
+  systemDark.value = e.matches
   if (mode.value === 'auto') applyMode('auto')
 }
 
@@ -56,17 +51,18 @@ onMounted(() => {
 </script>
 
 <template>
-  <label class="NiseThemeMode" :title="label">
-    <span class="NiseThemeModeLabel">{{ label }}</span>
-    <select
-      v-model="mode"
-      class="NiseThemeModeSelect"
-      :aria-label="label"
-      @change="applyMode(mode)"
+  <div class="nise-theme-toggle" role="group" :aria-label="isZh ? '主题模式' : 'Theme mode'">
+    <button
+      v-for="opt in options"
+      :key="opt.value"
+      class="nise-theme-btn"
+      :class="{ active: mode === opt.value }"
+      :title="label(opt)"
+      :aria-pressed="mode === opt.value"
+      @click="applyMode(opt.value)"
     >
-      <option v-for="option in options" :key="option.value" :value="option.value">
-        {{ option.text }}
-      </option>
-    </select>
-  </label>
+      <span class="nise-theme-icon" aria-hidden="true">{{ opt.icon }}</span>
+      <span class="nise-theme-label">{{ label(opt) }}</span>
+    </button>
+  </div>
 </template>
