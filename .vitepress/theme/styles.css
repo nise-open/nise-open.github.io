@@ -1,8 +1,50 @@
+/* ============================================================
+   NISE Theme — Color System
+   Core palette:
+     Brand: Sapphire blue  #0062CC → #0EA5E9 (light → dark)
+     Accent: Cyan/Electric #06B6D4
+     Gold: Amber           #D97706 (awards, hover)
+     Background: Near-white / Near-black (neutral)
+   Design goals: tech-premium, no purple, clear in both modes
+   ============================================================ */
+
+/* ── Hero Name Gradient ─────────────────────────────────── */
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #F04040, #004080);
+  --vp-home-hero-name-background: linear-gradient(
+    135deg,
+    #0062cc 0%,
+    #0096e6 40%,
+    #06b6d4 100%
+  );
 }
 
+/* Dark mode: slightly lighter, crisper */
+.dark {
+  --vp-home-hero-name-background: linear-gradient(
+    135deg,
+    #38bdf8 0%,
+    #0ea5e9 45%,
+    #22d3ee 100%
+  );
+}
+
+/* ── Brand Color Tokens ─────────────────────────────────── */
+:root {
+  --vp-c-brand-1: #0062cc;
+  --vp-c-brand-2: #0080e6;
+  --vp-c-brand-3: #0096e6;
+  --vp-c-brand-soft: rgba(0, 98, 204, 0.12);
+}
+
+.dark {
+  --vp-c-brand-1: #38bdf8;
+  --vp-c-brand-2: #0ea5e9;
+  --vp-c-brand-3: #0284c7;
+  --vp-c-brand-soft: rgba(56, 189, 248, 0.14);
+}
+
+/* ── NavBar Appearance Toggle (hidden, replaced by custom) ── */
 .VPNavBarAppearance {
   display: none !important;
 }
@@ -39,6 +81,7 @@
   outline-offset: 2px;
 }
 
+/* ── Hero Layout Tweaks ─────────────────────────────────── */
 .VPHero.has-image .container {
   padding-top: 40px;
 }
@@ -51,82 +94,49 @@
   .NiseThemeMode {
     padding-left: 8px;
   }
-
   .NiseThemeModeLabel {
     display: none;
   }
-
   .NiseThemeModeSelect {
     min-width: 84px;
   }
-
   .VPHero.has-image .container {
     padding-top: 64px;
   }
-
   .VPHero.has-image .image-container {
     transform: translate(0, 20px);
   }
 }
 
-/* Global Theme Colors Override (VitePress Variables) */
-:root {
-  --vp-c-brand-1: #2563eb;
-  --vp-c-brand-2: #3b82f6;
-  --vp-c-brand-3: #60a5fa;
-  --vp-c-brand-soft: rgba(37, 99, 235, 0.14);
-}
-
-.dark {
-  --vp-c-brand-1: #60a5fa;
-  --vp-c-brand-2: #3b82f6;
-  --vp-c-brand-3: #2563eb;
-  --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
-}
-
-/* Headings Styling */
+/* ── Heading Hierarchy — Unified Blue/Cyan System ────────── */
+/* h1 */
 .vp-doc h1 {
-  color: #0f766e;
+  color: #004fa3;
 }
+.dark .vp-doc h1 {
+  color: #7dd3fc;
+}
+
+/* h2 — slightly cyan-shifted for visual separation */
 .vp-doc h2 {
-  color: #0d9488;
-  border-bottom: 2px solid #f0fdfa;
+  color: #0069bf;
+  border-bottom: 2px solid rgba(0, 105, 191, 0.15);
   padding-bottom: 0.3em;
 }
-.vp-doc h3 {
-  color: #14b8a6;
+.dark .vp-doc h2 {
+  color: #38bdf8;
+  border-bottom-color: rgba(56, 189, 248, 0.2);
 }
 
-.dark .vp-doc h1 {
-  color: #5eead4;
-}
-.dark .vp-doc h2 {
-  color: #2dd4bf;
-  border-bottom-color: rgba(13, 148, 136, 0.6);
+/* h3 — electric cyan accent, readable */
+.vp-doc h3 {
+  color: #0284c7;
 }
 .dark .vp-doc h3 {
-  color: #99f6e4;
+  color: #22d3ee;
 }
 
-/* Publication & List Highlight Styling */
-.vp-doc ul > li > strong:first-child,
-.vp-doc ol > li > strong:first-child,
-.vp-doc ul > li > p:first-child > strong:first-child,
-.vp-doc ol > li > p:first-child > strong:first-child {
-  color: #2563eb;
-  font-size: 1.05em;
-  display: inline-block;
-  margin-bottom: 4px;
-}
-
-.dark .vp-doc ul > li > strong:first-child,
-.dark .vp-doc ol > li > strong:first-child,
-.dark .vp-doc ul > li > p:first-child > strong:first-child,
-.dark .vp-doc ol > li > p:first-child > strong:first-child {
-  color: #60a5fa;
-}
-
-/* Enhanced Links Styling */
+/* ── Links ───────────────────────────────────────────────── */
 .vp-doc a {
   color: var(--vp-c-brand-1);
   font-weight: 500;
@@ -138,47 +148,64 @@
 }
 
 .vp-doc a:hover {
-  color: #d97706; /* Gold/Amber hover */
-  text-decoration-color: rgba(217, 119, 6, 0.3);
+  color: #b45309;
+  text-decoration-color: rgba(180, 83, 9, 0.3);
 }
 
 .dark .vp-doc a:hover {
   color: #fbbf24;
-  text-decoration-color: rgba(251, 191, 36, 0.4);
+  text-decoration-color: rgba(251, 191, 36, 0.35);
 }
 
-
-/* Gold Accents & Badges */
+/* ── Gold Badge (Best Paper Award etc.) ─────────────────── */
 .gold-badge {
-  color: #d97706;
+  display: inline-block;
   font-weight: bold;
-  background: linear-gradient(120deg, #f59e0b, #d97706);
+  background: linear-gradient(120deg, #d97706 0%, #b45309 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
+  background-clip: text;
 }
 
 .dark .gold-badge {
-  color: #fbbf24;
-  background: linear-gradient(120deg, #fbbf24, #f59e0b);
+  background: linear-gradient(120deg, #fbbf24 0%, #f59e0b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-/* Gold border for Blockquotes to add elegance */
+/* ── Publication Title (strong in list) ─────────────────── */
+.vp-doc ul > li > strong:first-child,
+.vp-doc ol > li > strong:first-child,
+.vp-doc ul > li > p:first-child > strong:first-child,
+.vp-doc ol > li > p:first-child > strong:first-child {
+  color: #004fa3;
+  font-size: 1.05em;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.dark .vp-doc ul > li > strong:first-child,
+.dark .vp-doc ol > li > strong:first-child,
+.dark .vp-doc ul > li > p:first-child > strong:first-child,
+.dark .vp-doc ol > li > p:first-child > strong:first-child {
+  color: #7dd3fc;
+}
+
+/* ── Blockquote ─────────────────────────────────────────── */
 .vp-doc blockquote {
-  border-left-color: #f59e0b;
-  background: rgba(245, 158, 11, 0.05);
+  border-left-color: #0096e6;
+  background: rgba(0, 150, 230, 0.05);
   padding-right: 16px;
   border-radius: 0 8px 8px 0;
 }
 
 .dark .vp-doc blockquote {
-  border-left-color: #fbbf24;
-  background: rgba(251, 191, 36, 0.1);
+  border-left-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.08);
 }
 
-/* Premium Card Layout for Publication/Spaced Lists */
+/* ── Publication Card Layout ─────────────────────────────── */
 .vp-doc ul:has(li > p) {
   padding-left: 0;
 }
@@ -189,28 +216,27 @@
   border-radius: 12px;
   padding: 24px;
   margin-bottom: 24px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 12px rgba(0, 62, 153, 0.04);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   list-style: none;
 }
 
 .vp-doc ul > li:has(> p):hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 28px rgba(0, 62, 153, 0.1);
   border-color: var(--vp-c-brand-3);
 }
 
 .dark .vp-doc ul > li:has(> p) {
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-  background: var(--vp-c-bg-soft);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
 }
 
 .dark .vp-doc ul > li:has(> p):hover {
-  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
   border-color: var(--vp-c-brand-2);
 }
 
-/* Internal Spacing and Typography for Cards */
+/* ── Card Typography ─────────────────────────────────────── */
 .vp-doc ul > li > p {
   margin: 12px 0;
   line-height: 1.6;
@@ -224,12 +250,12 @@
   margin-bottom: 0;
 }
 
-/* Enhanced Paper Title */
+/* Enhanced Paper Title block */
 .vp-doc ul > li > p:first-child > strong:first-child,
 .vp-doc ol > li > p:first-child > strong:first-child {
   font-size: 1.15em;
   letter-spacing: -0.01em;
   line-height: 1.4;
-  display: block; /* Make title take its own space distinctly */
+  display: block;
   margin-bottom: 8px;
 }

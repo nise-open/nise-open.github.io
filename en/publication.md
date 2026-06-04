@@ -6,15 +6,15 @@ outline: 3
 
 ## Highlighted
 
-- **LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems** [ACM MobiSys '25]
+- **LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems** [MobiSys 2025]
   
   Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, **Li Lu**
 
-- **Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers** [ACM MobiCom '25]
+- **Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers** [MobiCom 2025]
   
   Shengyu Li, Mengchen Teng, Boyu Li, Songfan Li, Xiandong Shao, Chong Zhang, **Li Lu**
 
-- **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** [ACM SenSys '24] <span class="gold-badge">*(Best Paper Award)*</span>
+- **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** [SenSys 2024] <span class="gold-badge">*(Best Paper Award)*</span>
   
   Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, **Li Lu**, Hongzi Zhu
 
@@ -29,20 +29,26 @@ outline: 3
   *23rd ACM International Conference on Mobile Systems, Applications, and Services*
   
   *(MobiSys 2025)*
+  
+  [DOI:10.1145/3711875.3729126](https://doi.org/10.1145/3711875.3729126)
 
 - **Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers**
   
-  Shengyu Li，Mengchen Teng，Boyu Li，Songfan Li，Xiandong Shao，Chong Zhang, **Li Lu**
+  Shengyu Li, Mengchen Teng, Boyu Li, Songfan Li, Xiandong Shao, Chong Zhang, **Li Lu**
   
-  *31th Annual International Conference on Mobile Computing and Networking*
+  *31st Annual International Conference on Mobile Computing and Networking*
   
   *(MobiCom 2025)*
+  
+  [DOI:10.1145/3680207.3723460](https://doi.org/10.1145/3680207.3723460)
 
 - **Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing**
   
   Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, **Li Lu**, Hongzi Zhu
   
-  *IEEE Transactions on Mobile Computing (TMC 2025)*
+  *IEEE Transactions on Mobile Computing*
+  
+  *(TMC 2025)*
   
   [DOI:10.1109/TMC.2025.3567635](https://doi.org/10.1109/TMC.2025.3567635)
 
@@ -50,7 +56,9 @@ outline: 3
   
   Ji-Qing Gu, Chao Song, Jie Wu, **Li Lu**, Ming Liu
   
-  *Journal of Computer Science and Technology (JCST 2025)*
+  *Journal of Computer Science and Technology*
+  
+  *(JCST 2025)*
   
   [DOI:10.1007/s11390-023-3041-0](https://doi.org/10.1007/s11390-023-3041-0)
 
@@ -74,7 +82,7 @@ outline: 3
   
   *(SenSys 2024)*
   
-  <span class="gold-badge">Best Paper Award</span>
+  <span class="gold-badge">*(Best Paper Award)*</span>
   
   [DOI:10.1145/3666025.3699333](https://doi.org/10.1145/3666025.3699333)
 
@@ -84,29 +92,37 @@ outline: 3
   
   *Computer Networks*
   
-  [DOI:10.1016/J.COMNET.2024.110676](https://doi.org/10.1016/j.comnet.2024.110676)
+  *(COMNET 2024)*
+  
+  [DOI:10.1016/j.comnet.2024.110676](https://doi.org/10.1016/j.comnet.2024.110676)
 
 - **Energy-Efficient Dynamic Configurable Datapath Architecture for IoT Devices**
   
-  Ruizhe Zhang; Junhui Liu; Han Wang; **Li Lu**
+  Ruizhe Zhang, Junhui Liu, Han Wang, **Li Lu**
   
   *Journal of Communications and Information Networks*
   
-  [DOI:10.23919/JCIN.2024.10707103](https://doi.org/10.23919/jcin.2024.10707103)
+  *(JCIN 2024)*
+  
+  [DOI:10.23919/jcin.2024.10707103](https://doi.org/10.23919/jcin.2024.10707103)
 
 - **A Compact Impedance Matching Layer for Dual-Band Implantable Medical Devices**
   
   Yibo Pan, Wenjie Fu, Dun Lu, Tongxing Huang, Yihang Song, **Li Lu**, Yang Yan
   
-  *IEEE Antennas and Wireless Propagation Letters (AWPL 2024)*
+  *IEEE Antennas and Wireless Propagation Letters*
+  
+  *(AWPL 2024)*
   
   [DOI:10.1109/LAWP.2024.3424279](https://doi.org/10.1109/LAWP.2024.3424279)
 
 - **Compact Estimator for Streaming Triangle Counting**
   
-  Jiqing Gu; Chao Song; Haipeng Dai; **Li Lu**; Ming Liu
+  Jiqing Gu, Chao Song, Haipeng Dai, **Li Lu**, Ming Liu
   
   *IEEE Transactions on Knowledge and Data Engineering*
+  
+  *(TKDE 2024)*
   
   [DOI:10.1109/TKDE.2024.3371228](https://ieeexplore.ieee.org/document/10453507)
 
@@ -116,7 +132,9 @@ outline: 3
   
   Chong Zhang, Songfan Li, Yihang Song, Qianhe Meng, **Li Lu**, Hongzi Zhu, Xin Wang
   
-  *IEEE Transactions on Computers (TC 2024)*
+  *IEEE Transactions on Computers*
+  
+  *(TC 2024)*
   
   [DOI:10.1109/TC.2023.3343094](https://doi.org/10.1109/TC.2023.3343094)
 
@@ -124,31 +142,39 @@ outline: 3
   
   Songfan Li, Qianhe Meng, Yanxu Bai, Chong Zhang, Yihang Song, Shengyu Li, **Li Lu**
   
-  *MobiCom, 2023.*
+  *29th Annual International Conference on Mobile Computing and Networking*
+  
+  *(MobiCom 2023)*
   
   [DOI:10.1145/3570361.3613284](https://dl.acm.org/doi/10.1145/3570361.3613284)
 
 - **Watch Out Your Thumb Drive: Covert Data Theft From Portable Data Storage via Backscatter**
   
-  Shengyu Li; Songfan Li; Qingqing Liu; Yihang Song; Chong Zhang; **Li Lu**
+  Shengyu Li, Songfan Li, Qingqing Liu, Yihang Song, Chong Zhang, **Li Lu**
   
-  *IEEE Transactions on Dependable and Secure Computing, 2023.*
+  *IEEE Transactions on Dependable and Secure Computing*
+  
+  *(TDSC 2023)*
   
   [DOI:10.1109/TDSC.2023.3305607](https://ieeexplore.ieee.org/document/10226556)
 
 - **无线总线物联网边端体系——终端架构**
   
-  Chong Zhang; **Li Lu**
+  Chong Zhang, **Li Lu**
   
-  *中国计算机学会通讯, 2023.*
+  *中国计算机学会通讯*
+  
+  *(CCCF 2023)*
   
   [LINK](https://dl.ccf.org.cn/article/articleDetail.html?type=xhtx_thesis&_ack=1&id=6514879122606080)
 
 - **μMote: Enabling Passive Chirp De-spreading and μW-level Long-Range Downlink for Backscatter Devices**
   
-  Yihang Song and **Li Lu**, University of Electronic Science and Technology of China; Jiliang Wang, Tsinghua University; Chong Zhang, Hui Zheng, and Shen Yang, University of Electronic Science and Technology of China; Jinsong Han, Zhejiang University; Jian Li, University of Electronic Science and Technology of China
+  Yihang Song, **Li Lu**, Jiliang Wang, Chong Zhang, Hui Zheng, Shen Yang, Jinsong Han, Jian Li
   
-  *NSDI, 2023.*
+  *20th USENIX Symposium on Networked Systems Design and Implementation*
+  
+  *(NSDI 2023)*
   
   [LINK](https://www.usenix.org/conference/nsdi23/presentation/song-yihang)
 
@@ -156,15 +182,19 @@ outline: 3
   
   Chong Zhang, Songfan Li, Yihang Song, Qianhe Meng, Minghua Chen, YanXu Bai, **Li Lu**, Hongzi Zhu
   
-  *ASPLOS, 2023.*
+  *28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems*
+  
+  *(ASPLOS 2023)*
   
   [DOI:10.1145/3582016.3582050](https://dl.acm.org/doi/10.1145/3582016.3582050)
 
 - **Frequency Scaling Meets Intermittency: Optimizing Task Rate for RFID-Scale Computing Devices**
   
-  Songfan Li; Shengyu Li; Minghua Chen; Chao Song; **Li Lu**
+  Songfan Li, Shengyu Li, Minghua Chen, Chao Song, **Li Lu**
   
-  *IEEE Transactions on Mobile Computing, 2023.*
+  *IEEE Transactions on Mobile Computing*
+  
+  *(TMC 2023)*
   
   [DOI:10.1109/TMC.2023.3239515](https://ieeexplore.ieee.org/document/10025852)
 
@@ -172,9 +202,11 @@ outline: 3
 
 - **Cross-session Specific Emitter Identification using Adversarial Domain Adaptation with Wasserstein distance**
   
-  Yalan Ye; Chunji Wang; Hai Dong; **Li Lu**; Qiang Zhao
+  Yalan Ye, Chunji Wang, Hai Dong, **Li Lu**, Qiang Zhao
   
-  *2022 26th International Conference on Pattern Recognition, 2022.*
+  *26th International Conference on Pattern Recognition*
+  
+  *(ICPR 2022)*
   
   [DOI:10.1109/ICPR56361.2022.9956207](https://ieeexplore.ieee.org/document/9956207)
 
@@ -182,7 +214,9 @@ outline: 3
   
   **Li Lu**
   
-  *中国计算机学会通讯, 2022.*
+  *中国计算机学会通讯*
+  
+  *(CCCF 2022)*
   
   [LINK](https://dl.ccf.org.cn/article/articleDetail.html?type=xhtx_thesis&_ack=1&id=6042517015021568)
 
@@ -190,23 +224,29 @@ outline: 3
   
   Yalan Ye, Tongjie Pan, Qianhe Meng, Jingjing Li, **Li Lu**
   
-  *IJCAI, 2022.*
+  *31st International Joint Conference on Artificial Intelligence*
+  
+  *(IJCAI 2022)*
   
   [DOI:10.24963/IJCAI.2022/509](https://www.ijcai.org/proceedings/2022/509)
 
 - **Passive DSSS: Empowering the Downlink Communication for Backscatter Systems**
   
-  Songfan Li, Hui Zheng, Chong Zhang, Yihang Song, Shen Yang, Minghua Chen, and **Li Lu**, University of Electronic Science and Technology of China (UESTC); Mo Li, Nanyang Technological University (NTU)
+  Songfan Li, Hui Zheng, Chong Zhang, Yihang Song, Shen Yang, Minghua Chen, **Li Lu**, Mo Li
   
-  *NSDI，2022.*
+  *19th USENIX Symposium on Networked Systems Design and Implementation*
+  
+  *(NSDI 2022)*
   
   [LINK](https://www.usenix.org/conference/nsdi22/presentation/li-songfan)
 
 - **Research on Security Defense System of Industrial Control Network**
   
-  Shengyu Li; Fanjun Meng; Dashun Zhang; Qingqing Liu; **Li Lu**; Yalan Ye
+  Shengyu Li, Fanjun Meng, Dashun Zhang, Qingqing Liu, **Li Lu**, Yalan Ye
   
-  *2021 IEEE 2nd International Conference on Information Technology, Big Data and Artificial Intelligence, 2022.*
+  *2nd IEEE International Conference on Information Technology, Big Data and Artificial Intelligence*
+  
+  *(ICIBA 2022)*
   
   [DOI:10.1109/ICIBA52610.2021.9687994](https://ieeexplore.ieee.org/document/9687994)
 
@@ -214,7 +254,9 @@ outline: 3
   
   李松璠, **鲁力**, 李杰
   
-  *计算机学报, 2021.*
+  *计算机学报*
+  
+  *(CJC 2021)*
   
   [LINK](https://pubscholar.cn/articles/eb5e62f08c0b88b9ca920a1f3e368a15de9b5dffa8acb39ebb792c969ac6a1f6b22f0517a6346678dba89a9ae4d35088)
 
@@ -224,7 +266,9 @@ outline: 3
   
   Songfan Li, Chong Zhang, Yihang Song, Hui Zheng, Lu Liu, **Li Lu**, Mo Li
   
-  *MobiCom, 2020.*
+  *26th Annual International Conference on Mobile Computing and Networking*
+  
+  *(MobiCom 2020)*
   
   [DOI:10.1145/3372224.3419182](https://dl.acm.org/doi/10.1145/3372224.3419182)
 
@@ -234,7 +278,9 @@ outline: 3
   
   Songfan Li, **Li Lu**
   
-  *中国计算机学会通讯, 2022.*
+  *中国计算机学会通讯*
+  
+  *(CCCF 2018)*
   
   [LINK](https://dl.ccf.org.cn/article/articleDetail.html?type=xhtx_thesis&_ack=1&id=3848212962330624)
 
@@ -244,7 +290,9 @@ outline: 3
   
   **Li Lu**, Lingshuang Liu, Muhammad Jawad Hussain, Yongshuai Liu
   
-  *IEEE Transactions on Dependable and Secure Computing, 2017.*
+  *IEEE Transactions on Dependable and Secure Computing*
+  
+  *(TDSC 2017)*
   
   [DOI:10.1109/TDSC.2017.2767587](https://ieeexplore.ieee.org/document/8089415/)
 
@@ -252,7 +300,9 @@ outline: 3
   
   Hongzi Zhu, Jingmei Hu, Shan Chang, **Li Lu**
   
-  *IEEE Transactions on Mobile Computing, 2017.*
+  *IEEE Transactions on Mobile Computing*
+  
+  *(TMC 2017)*
   
   [DOI:10.1109/TMC.2017.2651820](https://ieeexplore.ieee.org/document/7814282)
 
@@ -262,7 +312,9 @@ outline: 3
   
   Hongzi Zhu, Shan Chang, **Li Lu**, Wei Zhang
   
-  *IEEE International Parallel and Distributed Processing Symposium, 2016.*
+  *IEEE International Parallel and Distributed Processing Symposium*
+  
+  *(IPDPS 2016)*
   
   [DOI:10.1109/IPDPS.2016.20](https://ieeexplore.ieee.org/document/7516008)
 
@@ -270,7 +322,9 @@ outline: 3
   
   Muhammad Jawad Hussain, **Li Lu**, Shan Gao
   
-  *IEEE Transactions on Mobile Computing, 2016.*
+  *IEEE Transactions on Mobile Computing*
+  
+  *(TMC 2016)*
   
   [DOI:10.1109/TMC.2016.2591524](https://ieeexplore.ieee.org/document/7513443)
 
@@ -278,7 +332,9 @@ outline: 3
   
   Saiyu Qi, Yuanqing Zheng, Mo Li, **Li Lu**, Yunhao Liu
   
-  *IEEE Transactions on Computers, 2016.*
+  *IEEE Transactions on Computers*
+  
+  *(TC 2016)*
   
   [DOI:10.1109/TC.2016.2538260](https://ieeexplore.ieee.org/document/7426406)
 

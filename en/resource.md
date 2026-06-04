@@ -1,6 +1,6 @@
 ---
-sidebar: false
 outline: false
+sidebar: true
 ---
 
 # Resources
@@ -12,3 +12,7 @@ outline: false
 
 ### Science Citation Index (SCI)
 [中国科学院期刊分区表](http://www.fenqubiao.com/Default.aspx)
+
+## Website Maintenance
+
+- [Visual Design Guide](/resource/visual-guide) — Color palette, typography, and component specifications
