@@ -20,6 +20,24 @@ outline: 3
 
 ## All Publications
 
+### 2026
+
+- **Remote Intermittency Control for RF-powered Devices via Backscatter Communication**
+  
+  *IEEE Transactions on Mobile Computing*
+  
+  *(TMC 2026)*
+  
+  [DOI:10.1109/TMC.2026.3676830](https://doi.org/10.1109/TMC.2026.3676830)
+
+- **Domination Strategies for Free-Riding in Cross-Silo FL-based Caching**
+  
+  *IEEE International Conference on Acoustics, Speech and Signal Processing*
+  
+  *(ICASSP 2026)*
+  
+  [DOI:10.1109/ICASSP55912.2026.11462146](https://doi.org/10.1109/ICASSP55912.2026.11462146)
+
 ### 2025
 
 - **LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems**
@@ -61,6 +79,78 @@ outline: 3
   *(JCST 2025)*
   
   [DOI:10.1007/s11390-023-3041-0](https://doi.org/10.1007/s11390-023-3041-0)
+
+- **Enhancing personalized trip recommendations with attractive route analysis and graph attention auto-encoder**
+  
+  *Knowledge-Based Systems*
+  
+  *(KBS 2025)*
+  
+  [DOI:10.1016/j.knosys.2025.113639](https://doi.org/10.1016/j.knosys.2025.113639)
+
+- **LoRaMirror: Illuminating Shadowed Spots in Urban LPWAN With Reflective Smart Surfaces**
+  
+  *IEEE Transactions on Mobile Computing*
+  
+  *(TMC 2025)*
+  
+  [DOI:10.1109/TMC.2025.3587057](https://doi.org/10.1109/TMC.2025.3587057)
+
+- **BaroAuth: Harnessing Ear Canal Deformation for Speaking User Authentication on Earbuds**
+  
+  *45th IEEE International Conference on Distributed Computing Systems*
+  
+  *(ICDCS 2025)*
+  
+  [DOI:10.1109/ICDCS63083.2025.00020](https://doi.org/10.1109/ICDCS63083.2025.00020)
+
+- **The What's Next IoT Architecture for Large-Scale Deployment**
+  
+  *23rd ACM Conference on Embedded Networked Sensor Systems*
+  
+  *(SenSys 2025)*
+  
+  [DOI:10.1145/3774505.3774518](https://doi.org/10.1145/3774505.3774518)
+
+- **无线总线物联网边端体系——无线通信技术**
+  
+  *中国计算机学会通讯*
+  
+  *(CCCF 2025)*
+  
+  [LINK](https://dl.ccf.org.cn/article/articleDetail.html?type=xhtx_thesis&_ack=1&id=7819704195975168)
+
+- **BlinkBud: Detecting Hazards from Behind via Sampled Monocular 3D Detection on a Single Earbud**
+  
+  *ACM Transactions on Sensor Networks*
+  
+  *(TOSN 2025)*
+  
+  [DOI:10.1145/3770707](https://doi.org/10.1145/3770707)
+
+- **Bringing LoRa Downlink to Backscatter Devices**
+  
+  *IEEE/ACM Transactions on Networking*
+  
+  *(ToN 2025)*
+  
+  [DOI:10.1109/TON.2025.3648008](https://doi.org/10.1109/TON.2025.3648008)
+
+- **A Cross-Disease Knowledge Transfer Framework for Small-Sample Omics Analysis with GNNs**
+  
+  *IEEE International Conference on Bioinformatics and Biomedicine*
+  
+  *(BIBM 2025)*
+  
+  [DOI:10.1109/BIBM66473.2025.11356578](https://doi.org/10.1109/BIBM66473.2025.11356578)
+
+- **μMan: Towards Device-Agnostic Power Management for Battery-free IoT**
+  
+  *12th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation*
+  
+  *(BuildSys 2025)*
+  
+  [DOI:10.1145/3774906.3800478](https://doi.org/10.1145/3774906.3800478)
 
 ### 2024
 
