@@ -23,6 +23,14 @@ outline: 3
 
 ### 2026
 
+- **μMan: Towards Device-Agnostic Power Management for Battery-free IoT**
+  
+  *23rd ACM Conference on Embedded Networked Sensor Systems*
+  
+  *(SenSys 2026)*
+  
+  [DOI:10.1145/3774906.3800478](https://doi.org/10.1145/3774906.3800478)
+
 - **Remote Intermittency Control for RF-powered Devices via Backscatter Communication**
   
   *IEEE Transactions on Mobile Computing*
@@ -107,9 +115,9 @@ outline: 3
 
 - **The What's Next IoT Architecture for Large-Scale Deployment**
   
-  *23rd ACM Conference on Embedded Networked Sensor Systems*
+  *GetMobile: Mobile Computing and Communications*
   
-  *(SenSys 2025)*
+  *(GetMobile 2025)*
   
   [DOI:10.1145/3774505.3774518](https://doi.org/10.1145/3774505.3774518)
 
@@ -123,9 +131,9 @@ outline: 3
 
 - **BlinkBud: Detecting Hazards from Behind via Sampled Monocular 3D Detection on a Single Earbud**
   
-  *ACM Transactions on Sensor Networks*
+  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*
   
-  *(TOSN 2025)*
+  *(IMWUT/UbiComp 2025)*
   
   [DOI:10.1145/3770707](https://doi.org/10.1145/3770707)
 
@@ -144,14 +152,6 @@ outline: 3
   *(BIBM 2025)*
   
   [DOI:10.1109/BIBM66473.2025.11356578](https://doi.org/10.1109/BIBM66473.2025.11356578)
-
-- **μMan: Towards Device-Agnostic Power Management for Battery-free IoT**
-  
-  *12th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation*
-  
-  *(BuildSys 2025)*
-  
-  [DOI:10.1145/3774906.3800478](https://doi.org/10.1145/3774906.3800478)
 
 ### 2024
 
