@@ -6,23 +6,37 @@ outline: 3
 
 ## Highlighted
 
+- **μMan: Towards Device-Agnostic Power Management for Battery-free IoT** [SenSys 2026]
+  
+  Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Shengyu Li, Songfan Li, Zetao Gao, **Li Lu**, Hongzi Zhu
+  
+  [DOI:10.1145/3774906.3800478](https://doi.org/10.1145/3774906.3800478)
+
 - **LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems** [MobiSys 2025]
   
   Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, **Li Lu**
+  
+  [DOI:10.1145/3711875.3729126](https://doi.org/10.1145/3711875.3729126)
 
 - **Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers** [MobiCom 2025]
   
   Shengyu Li, Mengchen Teng, Boyu Li, Songfan Li, Xiandong Shao, Chong Zhang, **Li Lu**
+  
+  [DOI:10.1145/3680207.3723460](https://doi.org/10.1145/3680207.3723460)
 
 - **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** [SenSys 2024] <span class="gold-badge">*(Best Paper Award)*</span>
   
   Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, **Li Lu**, Hongzi Zhu
+  
+  [DOI:10.1145/3666025.3699333](https://doi.org/10.1145/3666025.3699333)
 
 ## All Publications
 
 ### 2026
 
 - **μMan: Towards Device-Agnostic Power Management for Battery-free IoT**
+  
+  Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Shengyu Li, Songfan Li, Zetao Gao, **Li Lu**, Hongzi Zhu
   
   *23rd ACM Conference on Embedded Networked Sensor Systems*
   
@@ -32,6 +46,8 @@ outline: 3
 
 - **Remote Intermittency Control for RF-powered Devices via Backscatter Communication**
   
+  Songfan Li, Shengyu Li, YanXu Bai, **Li Lu**
+  
   *IEEE Transactions on Mobile Computing*
   
   *(TMC 2026)*
@@ -39,6 +55,8 @@ outline: 3
   [DOI:10.1109/TMC.2026.3676830](https://doi.org/10.1109/TMC.2026.3676830)
 
 - **Domination Strategies for Free-Riding in Cross-Silo FL-based Caching**
+  
+  Jiqing Gu, Chao Song, Jian Huang, Jie Wu, Rui Hu, Liping Lu
   
   *IEEE International Conference on Acoustics, Speech and Signal Processing*
   
@@ -90,6 +108,8 @@ outline: 3
 
 - **Enhancing personalized trip recommendations with attractive route analysis and graph attention auto-encoder**
   
+  Jiqing Gu, Chao Song, Wenjun Jiang, **Li Lu**, Ming Liu
+  
   *Knowledge-Based Systems*
   
   *(KBS 2025)*
@@ -97,6 +117,8 @@ outline: 3
   [DOI:10.1016/j.knosys.2025.113639](https://doi.org/10.1016/j.knosys.2025.113639)
 
 - **LoRaMirror: Illuminating Shadowed Spots in Urban LPWAN With Reflective Smart Surfaces**
+  
+  Songfan Li, Yanbo Zhang, Jansen Christian Liando, **Li Lu**, Mo Li
   
   *IEEE Transactions on Mobile Computing*
   
@@ -106,6 +128,8 @@ outline: 3
 
 - **BaroAuth: Harnessing Ear Canal Deformation for Speaking User Authentication on Earbuds**
   
+  Luo Zhou, Shan Chang, Jiusong Luo, Huixiang Wen, Hongzi Zhu, **Li Lu**
+  
   *45th IEEE International Conference on Distributed Computing Systems*
   
   *(ICDCS 2025)*
@@ -113,6 +137,8 @@ outline: 3
   [DOI:10.1109/ICDCS63083.2025.00020](https://doi.org/10.1109/ICDCS63083.2025.00020)
 
 - **The What's Next IoT Architecture for Large-Scale Deployment**
+  
+  Qianhe Meng, Han Wang, Chong Zhang, Yihang Song, Songfan Li, **Li Lu**, Hongzi Zhu
   
   *GetMobile: Mobile Computing and Communications*
   
@@ -122,6 +148,8 @@ outline: 3
 
 - **无线总线物联网边端体系——无线通信技术**
   
+  Han Wang, Yihang Song, **Li Lu**
+  
   *中国计算机学会通讯*
   
   *(CCCF 2025)*
@@ -129,6 +157,8 @@ outline: 3
   [LINK](https://dl.ccf.org.cn/article/articleDetail.html?type=xhtx_thesis&_ack=1&id=7819704195975168)
 
 - **BlinkBud: Detecting Hazards from Behind via Sampled Monocular 3D Detection on a Single Earbud**
+  
+  Yunzhe Li, Jiajun Yan, Yuzhou Wei, Kechen Liu, Yize Zhao, Chong Zhang, Hongzi Zhu, **Li Lu**, Shan Chang, Minyi Guo
   
   *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*
   
@@ -138,6 +168,8 @@ outline: 3
 
 - **Bringing LoRa Downlink to Backscatter Devices**
   
+  Han Wang, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, **Li Lu**
+  
   *IEEE/ACM Transactions on Networking*
   
   *(ToN 2025)*
@@ -145,6 +177,8 @@ outline: 3
   [DOI:10.1109/TON.2025.3648008](https://doi.org/10.1109/TON.2025.3648008)
 
 - **A Cross-Disease Knowledge Transfer Framework for Small-Sample Omics Analysis with GNNs**
+  
+  Chao Song, Kunyang Xian, Peng Yao, Lu Gan, Ruilin Hu, **Li Lu**, Yu Cao
   
   *IEEE International Conference on Bioinformatics and Biomedicine*
   
