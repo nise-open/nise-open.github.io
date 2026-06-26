@@ -11,11 +11,13 @@ const { lang } = useData()
 
 const isZh = computed(() => lang.value.startsWith('zh'))
 
-const options = computed<{ value: ThemeMode; labelZh: string; labelEn: string; icon: string }[]>(() => [
-  { value: 'light', labelZh: '白天', labelEn: 'Light',  icon: '☀' },
-  { value: 'auto',  labelZh: '自动', labelEn: 'System', icon: '⬤' },
-  { value: 'dark',  labelZh: '夜间', labelEn: 'Dark',   icon: '☽' },
-])
+const options = computed<{ value: ThemeMode; labelZh: string; labelEn: string; icon: string }[]>(
+  () => [
+    { value: 'light', labelZh: '白天', labelEn: 'Light', icon: '☀' },
+    { value: 'auto', labelZh: '自动', labelEn: 'System', icon: '⬤' },
+    { value: 'dark', labelZh: '夜间', labelEn: 'Dark', icon: '☽' }
+  ]
+)
 
 function label(opt: { labelZh: string; labelEn: string }) {
   return isZh.value ? opt.labelZh : opt.labelEn

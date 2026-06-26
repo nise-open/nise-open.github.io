@@ -7,7 +7,7 @@ import {
 
 export const shared = defineConfig({
   title: 'Intelligent Computing Systems Laboratory',
-  
+
   rewrites: {
     'en/:rest*': ':rest*'
   },
@@ -85,19 +85,13 @@ export const shared = defineConfig({
   themeConfig: {
     logo: { src: '/favicon.svg', width: 24, height: 24 },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/nise-open' }
-    ],
-
+    socialLinks: [{ icon: 'github', link: 'https://github.com/nise-open' }]
   },
   vite: {
     plugins: [
       groupIconVitePlugin({
         customIcon: {
-          niselab: localIconLoader(
-            import.meta.url,
-            '../../public/favicon.svg'
-          )
+          niselab: localIconLoader(import.meta.url, '../../public/favicon.svg')
         }
       })
     ]

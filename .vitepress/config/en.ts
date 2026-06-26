@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export const en = defineConfig({
   lang: 'en-US',
-  description: 'The website of Intelligent Computing Systems Laboratory at the University of Electronic Science and Technology of China.',
+  description:
+    'The website of Intelligent Computing Systems Laboratory at the University of Electronic Science and Technology of China.',
 
   themeConfig: {
     nav: [
@@ -11,6 +12,7 @@ export const en = defineConfig({
       { text: 'Publications', link: '/publication' },
       { text: 'Resources', link: '/resource' },
       { text: 'Contact us', link: '/contact' },
+      { text: 'Content Home', link: 'https://home.icsl.nise.ac.cn' }
     ],
 
     sidebar: {
@@ -19,10 +21,10 @@ export const en = defineConfig({
           text: 'Resources',
           items: [
             { text: 'Overview', link: '/resource' },
-            { text: 'Visual Design Guide', link: '/resource/visual-guide' },
+            { text: 'Visual Design Guide', link: '/resource/visual-guide' }
           ]
         }
-      ],
+      ]
     },
 
     footer: {

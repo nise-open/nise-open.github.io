@@ -4,10 +4,14 @@ title: 智能计算系统实验室
 titleTemplate: 电子科技大学
 hero:
   name: "\n智能计算系统实验室"
-  tagline: "探界智能系统前沿 · 构筑未来计算生态<br>Next-generation Intelligent Systems Exploration"
-  image: 
+  tagline: '探界智能系统前沿 · 构筑未来计算生态<br>Next-generation Intelligent Systems Exploration'
+  image:
     src: /nise-logo.svg
     alt: ICSL
+  actions:
+    - theme: brand
+      text: 内容主页
+      link: https://home.icsl.nise.ac.cn
 ---
 
 ## 团队简介

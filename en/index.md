@@ -3,10 +3,14 @@ layout: home
 titleTemplate: UESTC
 hero:
   name: "Intelligent Computing Systems\nLaboratory"
-  tagline: "Next-generation Intelligent Systems Exploration"
-  image: 
+  tagline: 'Next-generation Intelligent Systems Exploration'
+  image:
     src: /nise-logo.svg
     alt: ICSL
+  actions:
+    - theme: brand
+      text: Content Home
+      link: https://home.icsl.nise.ac.cn
 ---
 
 ## About Us

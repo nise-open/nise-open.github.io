@@ -2,8 +2,8 @@
 
 Source code for the Intelligent Computing Systems Laboratory official website, built with VitePress.
 
-* 🌐 **Live Site**: [https://www.nise.ac.cn](https://www.nise.ac.cn)
-* 🗃️ **GitHub Repo**: [https://github.com/nise-open/nise-open.github.io](https://github.com/nise-open/nise-open.github.io)
+- 🌐 **Live Site**: [https://www.nise.ac.cn](https://www.nise.ac.cn)
+- 🗃️ **GitHub Repo**: [https://github.com/nise-open/nise-open.github.io](https://github.com/nise-open/nise-open.github.io)
 
 ---
 
@@ -38,12 +38,12 @@ Source code for the Intelligent Computing Systems Laboratory official website, b
 
 Multilingual support is set up via VitePress locales and file-based routing.
 
-* Language configs: `.vitepress/config/en.ts` and `.vitepress/config/zh.ts`
-* Content directories: `/en` for English, `/zh` for Chinese
-* Locale config is handled in `.vitepress/config/index.ts` as follows:
+- Language configs: `.vitepress/config/en.ts` and `.vitepress/config/zh.ts`
+- Content directories: `/en` for English, `/zh` for Chinese
+- Locale config is handled in `.vitepress/config/index.ts` as follows:
 
 ```ts
-import { defineConfig } from "vitepress";
+import { defineConfig } from 'vitepress'
 import { shared } from './shared'
 import { en } from './en'
 import { zh } from './zh'
@@ -52,12 +52,12 @@ export default defineConfig({
   ...shared,
   locales: {
     root: { label: 'English', ...en },
-    zh: { label: '简体中文', ...zh },
+    zh: { label: '简体中文', ...zh }
   }
 })
 ```
 
-* Navigation, footer, sidebar, and UI strings are localized and configured in respective language files.
+- Navigation, footer, sidebar, and UI strings are localized and configured in respective language files.
 
 ---
 
@@ -119,20 +119,20 @@ You can customize these steps as needed.
 
 ## 🛠️ Theme, Plugins, and Features
 
-* Custom theme under `.vitepress/theme/` (logo, colors, CSS, etc)
-* Icon support via `vitepress-plugin-group-icons`
-* English and Chinese UI/UX, including nav, outline, code copy button text, etc.
-* Supports math typesetting, code transformers, and improved code copy UX
-* Favicon, manifest, and mobile support in head meta
+- Custom theme under `.vitepress/theme/` (logo, colors, CSS, etc)
+- Icon support via `vitepress-plugin-group-icons`
+- English and Chinese UI/UX, including nav, outline, code copy button text, etc.
+- Supports math typesetting, code transformers, and improved code copy UX
+- Favicon, manifest, and mobile support in head meta
 
 ---
 
 ## ✍️ Content Guidelines
 
-* Write Markdown under `/en/` and `/zh/`, with parallel structure
-* Use appropriate frontmatter (`lang`, `title`) per language
-* Vue components can be embedded in Markdown
-* Static assets (logos, icons) go in `public/`
+- Write Markdown under `/en/` and `/zh/`, with parallel structure
+- Use appropriate frontmatter (`lang`, `title`) per language
+- Vue components can be embedded in Markdown
+- Static assets (logos, icons) go in `public/`
 
 ---
 
@@ -155,5 +155,5 @@ MIT — see [LICENSE](LICENSE)
 
 ## 📬 Contact
 
-* 📧 Email: [public@nise.ac.cn](mailto:public@nise.ac.cn)
-* 🔗 Lab Website: [https://www.nise.ac.cn](https://www.nise.ac.cn)
+- 📧 Email: [public@nise.ac.cn](mailto:public@nise.ac.cn)
+- 🔗 Lab Website: [https://www.nise.ac.cn](https://www.nise.ac.cn)
